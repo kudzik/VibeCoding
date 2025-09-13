@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Space Shooter - Three.js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <div id="ui">
+            <div id="score">Punkty: 0</div>
+            <div id="lives">Życia: 3</div>
+            <div id="gameOver" class="hidden">
+                <h2>GAME OVER</h2>
+                <p>Twój wynik: <span id="finalScore">0</span></p>
+                <button id="restartBtn">Zagraj ponownie</button>
+            </div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+    </div>
+    
+    <div id="instructions">
+        <h3>Sterowanie:</h3>
+        <p>WASD lub strzałki - poruszanie</p>
+        <p>SPACJA - strzał</p>
+        <p>ESC - pauza</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
