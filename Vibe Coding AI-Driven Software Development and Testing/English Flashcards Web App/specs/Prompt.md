@@ -31,3 +31,10 @@ Strona ze statystykami: śledź liczbę fiszek, które przerobiłeś, oraz popra
 Dane wyjściowe powinny być sformatowane w formacie Markdown.
 Zadaj dodatkowe pytania, jeśli coś jest niejasne PRZED rozpoczęciem generowania.
 
+---
+
+Weź tę specyfikację i stwórz listę TODO z polami wyboru (checkbox), aby pomóc w implementacji po jednej funkcji naraz. Posortuj funkcje od najłatwiejszych do najtrudniejszych w fazach. Dla każdego punktu na liście określ też kryteria akceptacji. Wynik powinien być w formacie Markdown.
+
+---
+
+Użyj wymagań oprogramowania (specification.md) oraz listy zadań (TODO.md), aby ukończyć Fazę 1 projektu w bieżącym katalogu. Oznacz zadania jako wykonane na liście TODO dopiero po zweryfikowaniu, że spełnione zostały kryteria akceptacji.

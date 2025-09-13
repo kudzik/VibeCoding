@@ -10,6 +10,7 @@ Frontendowa aplikacja webowa z fiszkami, pomagająca użytkownikom w nauce słow
 
 ## Stos Technologiczny
 
+- **Aplikacja w kontenerze docker** nie zalezna od systemu operacyjnego 
 - **Framework frontendowy:** React (z Vite + TypeScript)  
 - **Przechowywanie danych:** statyczne pliki JSON/TypeScript (bez backendu)  
 - **Zarządzanie stanem:** React `useState` / `useReducer`, opcjonalnie `useContext` lub Zustand  
