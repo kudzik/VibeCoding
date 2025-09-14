@@ -32,14 +32,14 @@
   - [x] Interakcja odwracania (kliknij, aby odwrócić)  
     ✅ *Kryteria akceptacji:* Kliknięcie powoduje animację odwrócenia kartki.
 
-- [ ] Pokaż przyciski "✅ Poprawnie" i "❌ Źle" po odwróceniu  
-  ✅ *Kryteria akceptacji:* Przyciski pojawiają się tylko po odwróceniu i pozwalają oznaczyć odpowiedź jako poprawną lub błędną. Po kliknięciu pojawia się kolejna fiszka.
+- [x] Pokaż przyciski "✅ Poprawnie" i "❌ Źle" po odwróceniu  
+  ✅ *Kryteria akceptacji:* Przyciski pojawiają się tylko po odwróceniu i pozwalają oznaczyć odpowiedź jako poprawną lub błędną. Po kliknięciu pojawia się kolejna fiszka.
 
-- [ ] Śledź błędne odpowiedzi w stanie React  
-  ✅ *Kryteria akceptacji:* Fiszki oznaczone jako "Źle" są zapisywane w stanie komponentu lub aplikacji do późniejszego wykorzystania.
+- [x] Śledź błędne odpowiedzi w stanie React  
+  ✅ *Kryteria akceptacji:* Fiszki oznaczone jako "Źle" są zapisywane w stanie komponentu lub aplikacji do późniejszego wykorzystania.
 
-- [ ] Pozwól użytkownikowi przechodzić przez wszystkie fiszki w wybranej kategorii  
-  ✅ *Kryteria akceptacji:* Użytkownik może przejrzeć fiszki po kolei do końca.
+- [x] Pozwól użytkownikowi przechodzić przez wszystkie fiszki w wybranej kategorii  
+  ✅ *Kryteria akceptacji:* Użytkownik może przejrzeć fiszki po kolei do końca.
 
 ## 🟡 Faza 3: Tryb powtórek (tylko błędne fiszki)
 

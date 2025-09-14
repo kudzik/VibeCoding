@@ -1,0 +1,77 @@
+12. Creating a TODO list
+
+In this lecture we're going to create a to do list, not a to do list app, but actually a to do list
+
+for the application that we're trying to build.
+
+Now that we have a software specification, we could theoretically go in cursor and say build this and
+
+probably cursor will do a pretty decent job.
+
+For smaller projects this would be totally feasible.
+
+However, the experience has shown that it is best to work in small increments, one feature at a time.
+
+I know that you're probably very excited and you just want to start building, but do not underestimate
+
+these initial steps that we're doing.
+
+Decisions that we make right now will have impacts for the app along the way.
+
+So what we're going to do in this lecture is we're going to use this specification and ask an LLM like
+
+ChatGPT to create a step by step to do list attached as a resource to this lecture, you're going to
+
+find the following prompt, which pretty much tells ChatGPT to take this specification and create a
+
+to do list.
+
+So I'm going to provide here right below the specification which is going to be a copy paste from what
+
+I have.
+
+It's also possible to continue the previous conversation, but I did make some changes to the specification
+
+to make sure that it fits my particular needs.
+
+So for that reason, continuing that conversation doesn't really make a lot of sense.
+
+So what we're going to get here is a to do list in the markdown format.
+
+And this is again something that we can easily go ahead and copy.
+
+Again, I'm going to make some changes to this, but I'm going to store everything in a file inside
+
+a project.
+
+So the file is going to be here inside docs.
+
+And the name of the file is going to be todo.md.
+
+And inside here I'm going to paste the to do list.
+
+And you're going to find this todo list as a resource to this lecture as well.
+
+So after a bit of back and forth with ChatGPT and a bit of editing, this is how the to do list looks
+
+like.
+
+It is structured in multiple phases, and each phase contains an item in the list which is currently
+
+marked as not done, but also acceptance criteria to help understand if that particular item has been
+
+properly implemented or not.
+
+It does take a bit of time to create all this and to review this information, but it is super important
+
+for later on.
+
+Again, you're going to find both the specification and the to do list that I'm going to use in the
+
+upcoming steps as a resource to this lecture.
+
+Just keep in mind, because Llms are non-deterministic, even if you use this exact specification and
+
+this exact to do list, your application will look slightly different and may encounter slightly different
+
+problems than what I'm going to show in the upcoming lecture.

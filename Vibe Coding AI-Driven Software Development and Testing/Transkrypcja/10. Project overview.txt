@@ -1,0 +1,61 @@
+10. Project overview
+
+In this section, we'll build and deploy a flashcards web application.
+
+I think this can be a cool little project for anyone trying to improve their skills.
+
+Learn a new language or maybe prepare for an exam.
+
+Along the way, we'll learn some of the key ideas behind coding.
+
+Throughout the section, we will be using cursor, an AI powered IDE.
+
+And to follow along you will need to be on the free Pro trial which lasts two weeks or have the paid
+
+Pro plan.
+
+This section will help build a strong foundation for working with AI coding tools.
+
+Even though we're using cursor, the concepts we'll learn like working step by step, writing specifications,
+
+and testing our code can be applied easily to other tools as well.
+
+So if cursor doesn't suit your needs or feels too expensive, no worries.
+
+Actually, what we're learning here is still going to be useful.
+
+So here's what we'll do together in this section.
+
+We're going to start by creating a software specification to guide our project which will build flashcards
+
+web application.
+
+After the specification we'll also make a plan in the form of a to do list Just to stay organized.
+
+And we will work in an iterative way, improving the app step by step.
+
+And to make sure that we don't lose any changes, we're going to use git to version our code.
+
+And because we don't want to run manual tests, every time we make a small change to the application,
+
+we're going to write and run simple tests to ensure that the application is working properly.
+
+Apart from this, we'll also learn how to write rules that I needs to follow and also explore some more
+
+advanced features like Amqp, which lets the I interact with other tools and services.
+
+You're going to see that building this app is going to be fun, but sometimes also challenging.
+
+So if you ever get stuck or have questions, check the Q&A section below each lecture or reach out directly
+
+through a private message.
+
+I'm here to help you move forward and make fast progress.
+
+Before we start this section, make sure that you have the following installed and up and running.
+
+You will need cursor, Node.js and git.
+
+If anything is missing, you will find setup instructions in the resources folder.
+
+And with that being said, let's get started.

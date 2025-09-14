@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  english-flashcards:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: english-flashcards-app
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:80"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    labels:
+      - "com.docker.compose.project=english-flashcards"
+      - "com.docker.compose.service=app"

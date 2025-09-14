@@ -1,0 +1,204 @@
+2. AI-powered coding tools
+
+This course tries to teach you the skills you need to know, regardless of the tools you decide to use.
+
+And talking about that, currently there's an explosion of tools in this space.
+
+It is just incredibly hard to keep track of all of them.
+
+But in this lecture, I'm going to give you a bit of orientation so that at least you know which tools
+
+work best for you.
+
+If you're getting started and have no experience installing DevTools on your computer, or just stick
+
+to web based tools which are presented here on the right hand side.
+
+So web based tools are lovable.
+
+Firebase Studio, Bold zero from Vercel and many, many others.
+
+So let me just give you an example of what a web based tool is and how it looks like so that you have
+
+a brief idea.
+
+So in this case I'm going to demonstrate here briefly lovable.
+
+And all these tools are excellent for creating beautiful front ends without you having to install any
+
+tools or leave your browser.
+
+So you'll need to do is provide a prompt here.
+
+You can even attach here an image or a figma design.
+
+And you can easily create an app.
+
+So just to show you an example, I have created here a small application which helps me learn a few
+
+Spanish words.
+
+And this is what I used to get started.
+
+So I just specified here an initial prompt, which is anyway not ideal, but this is the interface that
+
+has been created.
+
+So it has been built a front end that I would need a lot of time to replicate.
+
+And I can continue the conversation and improve this app and make it better.
+
+So there's a lot of possibility by using one of these apps and it's all integrated.
+
+So this is also deployed.
+
+I can just use a domain from lovable a lot of options there.
+
+And there's also the possibility of viewing here the code.
+
+If you're a bit more technical, you want to see exactly what has happened.
+
+It's also possible to integrate this with GitHub.
+
+So if you have a GitHub account, you want to sync your code there.
+
+That's also possible.
+
+And not only that, it's also a good idea to look into additional integrations.
+
+For example, Supabase is something that allows you to add data storage or other backend capabilities
+
+so things that a normal application also needs.
+
+It's just about building a front end, which is absolutely fine.
+
+We're also building more advanced applications, and I think this is a great starting point for many
+
+people.
+
+If you still don't want to leave your browser, but you're looking for something slightly more advanced,
+
+Firebase Studio from Google has been recently launched.
+
+It provides even more functionality, but sometimes, especially for beginners, more is not always
+
+better.
+
+So just keep that in mind.
+
+So in a nutshell, if you're a beginner and you want to do everything from your browser, start with
+
+one of these apps.
+
+I think loveable is a great place to start.
+
+But if you're a bit more adventurous and are used to solving problems on your own, You can go for any
+
+of the tools on the left hand side.
+
+So we have here a few options available.
+
+I'm going to start here with ID extensions.
+
+So any ID that you're currently using, whether it's Visual Studio Code or something else as the possibility
+
+of adding extensions or plugins.
+
+And there are a lot of options here available.
+
+GitHub Copilot is one of these tools that has been on the market for a long time, and they've also
+
+recently added this agent mode, which is pretty good actually.
+
+We also have windsurf, which is available also as an extension, and also many other options.
+
+So there are a few options right here.
+
+So if you just want to get started with something, choose either GitHub Copilot or Windsurf in terms
+
+of an extension.
+
+However, if you want to get a full IDE which has all these features already enabled and added, you
+
+want to look here at this part.
+
+Full Ides or Visual Studio Code forks.
+
+Because all the options that we have here have been forked from Visual Studio, which is created by
+
+Microsoft.
+
+So we have here in this category cursor windsurf and also more recently tray.
+
+So in terms of tool recommendation cursor or windsurf they are both excellent tools tools that we're
+
+going to discuss also throughout this course.
+
+And these are a great starting point.
+
+So choose any of the options that you think are best for you.
+
+There's also a very small category.
+
+These are CLI tools.
+
+More recently OpenAI released Codex CLI.
+
+Honestly I'm not so impressed.
+
+We're going to look into this a bit later in the course.
+
+It's not a big category.
+
+It's not something that I would recommend looking into.
+
+If you're just getting started.
+
+There are many more exciting tools that are available there.
+
+Now, the idea of IDE extensions and also of this Visual Studio Code works, is that you have more control
+
+over the application that you're building.
+
+You're not constrained to a specific tool or a specific technology that's being used.
+
+And this is great.
+
+But with more power also comes more responsibility.
+
+So these are tools that I recommend for people who are a bit more experienced, or for people who want
+
+to learn software development and are willing to experiment a bit.
+
+Now, regardless of the tools you decide to use, keep in mind that it's relatively easy to use the
+
+skills you have learned with a particular tool, and apply those skills to any other tools that you
+
+see out here.
+
+So throughout the course, even if a section focuses on a specific tool, the ideas apply to other tools
+
+as well.
+
+So don't skip something because you think, oh, this is talking about herself, for example.
+
+And I want to use lovable.
+
+And that's not really relevant for me.
+
+Actually it is up to a certain degree.
+
+So you're going to see here in the course that many of these concepts can be applied to many other tools.
+
+So that is it in terms of orientation.
+
+And these are my recommendations.
+
+And if you have any questions about this, feel free to drop a question in the Q&A below this lecture.
+
+I'm more than happy to help out.
+
+powiadomienie o informacji
+Zaplanuj czas na naukę
+Wiedza zdobywana codziennie po trochu kumuluje się. Z badań wynika, że osoby, które wyrobiły w sobie nawyk uczenia się, częściej osiągają cele. Zarezerwuj czas na naukę i skorzystaj z przypomnień, używając narzędzia do planowania nauki.
+Leverage tools such as Cursor, Windsurf, GitHub Copilot or Lovable to build

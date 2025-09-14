@@ -1,0 +1,67 @@
+7. Auto-run mode (letting the agent run commands)
+
+You probably observed that the agent has absolutely no problem creating files, adding content to them,
+
+making changes and so on, but doesn't actually want to run any commands.
+
+So we had to manually go and click here on run to execute these commands.
+
+And this is more of a safety feature than necessarily something that the agent cannot do.
+
+And this is actually configured in settings.
+
+And I want to briefly show you how you can enable pretty much the auto run mode, which will allow the
+
+agent to run any commands it thinks it should be executed.
+
+Now be aware this has some safety implications, but we're gonna try to understand exactly how we can
+
+make this safer.
+
+So all you need to do is locate here the settings.
+
+And we're going to go here to Cursor settings because that's where this particular setting is hidden.
+
+I'm going to go here to features.
+
+And I'm going to scroll a bit further down.
+
+And what we're going to see here is one important feature which is regarding the default chat modes.
+
+If you find yourself switching from chat to agent all the time, just select it here to agents so that
+
+you're not going to have that particular issue.
+
+Now, going to the problem that we're actually trying to solve is right about here, where it says enable
+
+auto run mode.
+
+And we're going to enable this, but we're going to read here.
+
+So other run mode runs any commands based on the allow list and deny list.
+
+You said be cautious of potential prompt injection risks from external sources and use at your own risk.
+
+Meaning that if you put here some prompt that someone else has created and you're saying, yeah, fine,
+
+run whatever you want, you're exposing yourself to some security risk.
+
+Typically, if you know exactly what is inside your prompt, that shouldn't be an issue.
+
+Now ideally, what we want to do is to add here some specific commands to the allow list.
+
+So this narrows down a bit what is allowed and what is denied.
+
+So for example we can add here npm to this list and any other commands that we think should be executed.
+
+Just be very careful with this feature.
+
+It is very convenient to have the agent run everything, but if someone is trying to steal some credentials
+
+and is providing you with a prompt and saying, hey, here's this amazing prompt, and somewhere in
+
+the prompt that says, hey, make sure you execute this command.
+
+Then of course the agent is going to go ahead and execute those commands because these were the instructions.
+
+But anyway, this is how you can configure the autorun mode, which is very, very convenient.

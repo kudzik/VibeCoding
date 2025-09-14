@@ -1,0 +1,147 @@
+9. Choosing a tech stack
+
+Before we get any deeper into vibe coding, I wanted to briefly talk about the tech stack we could use
+
+for our project.
+
+But wait a minute.
+
+What is a tech stack?
+
+Well, a tech stack is a combination of technologies we can use to build a software product.
+
+It typically includes the front end, which is what the user sees, the backend which contains all the
+
+processing and logic of the application, a database for storing data, and quite often the various
+
+tools that are needed for deployment and services for hosting.
+
+Now, how do we choose the right tech stack for our project?
+
+Well, in this lecture we're going to break it down a bit.
+
+Now, probably the most important thing is to choose a popular stack.
+
+And there are many reasons why it makes sense to go with something popular, but here at least three
+
+reasons.
+
+First of all, if it is a popular technology, the I had enough data to be trained on, so the quality
+
+of the code generated or troubleshooting problems is much more efficient.
+
+It's also easier to find tutorials and help online if the I cannot help you.
+
+And also a technology that's very popular, it is likely to be maintained and updated, which is good
+
+in the long run.
+
+So it's a good idea to research your options.
+
+For example, you can check developer surveys to see which technologies are popular, just in case you
+
+don't know.
+
+For example, I have here on the screen the 2024 Developer survey from Stack Overflow.
+
+And if you go here a bit further down into the list, you're gonna find under technology the most popular
+
+technologies.
+
+And you can find here, for example, in terms of programming, scripting and markup languages, databases,
+
+cloud platforms, and so on.
+
+Apart from this, you can also use AI tools to help with that research.
+
+So think of ChatGPT or any other tool where you could look for suggestions, or simply continue a conversation
+
+with ChatGPT and see what kind of technology would make sense for your specific project.
+
+But you also need to think about the app architecture, because the type of app we're building affects
+
+the tech choices.
+
+So you need to think, what kind of an app do you want to build?
+
+Is it a website?
+
+Is it a mobile app or is it something else altogether?
+
+Will you need to handle a lot of users willing to be hosted somewhere and shared with others, or will
+
+it just run locally on your machine?
+
+And if it needs to be deployed, just keep in mind that a tech stack and architecture will also play
+
+a key part.
+
+So architectural decisions can affect things like the cost of infrastructure, the scalability or the
+
+performance of the app.
+
+So it's not just about choosing a specific programming language, it's about the whole system.
+
+Now let's explore a few great choices for beginners.
+
+First of all, we're going to start with JavaScript, which is both used for front end and back end
+
+in combination.
+
+Of course for the front end with HTML and CSS, and for the back end with node js, but one programming
+
+language can handle both words, and this is excellent, especially for web applications.
+
+And there are many free resources and a huge community behind this.
+
+And JavaScript is great because you can build an entire app just using one language, and that is efficient.
+
+And also, to be honest, very beginner friendly.
+
+The second option I would recommend you look into is Python as an alternative to JavaScript.
+
+Now Python is mostly used for backend stuff, rarely for front ends, and Python is relatively easy
+
+to read, write, and overall learn.
+
+It is popular for web development in terms of the backend, but it's also popular in the AI and data
+
+science world, and quite often also used for automation.
+
+So again, why is Python great?
+
+It is very flexible, has a clean, beginner friendly syntax and it is very popular.
+
+Now before we wrap up this lecture.
+
+Final tips for you.
+
+First of all, start simple.
+
+Don't overthinking.
+
+Choose something you can learn and build with.
+
+Choose something that you think works best for you.
+
+And one approach, of course, is to try, in the beginning different technologies and to see which
+
+one you resonate better.
+
+You don't want to choose something that is really difficult for you.
+
+Choose something that you really enjoy doing.
+
+Now, apart from this, you also want to think long term.
+
+A popular and well supported tools will save you headaches later, and choosing a tech stack is one
+
+of the most important early decisions in your project, especially if you want to build something bigger.
+
+You don't have to get it perfect from the start, but just make sure that what you're choosing is popular,
+
+scalable, and also beginner friendly.
+
+So take your time, do your research, and most importantly, start building something so that you can
+
+gather that experience.

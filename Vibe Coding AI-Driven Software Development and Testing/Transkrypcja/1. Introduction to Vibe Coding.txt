@@ -1,0 +1,173 @@
+1. Introduction to Vibe Coding
+
+When I first heard the term vibe coding, I imagine coding in a cozy cafe with chill music, but it
+
+turns out it's something else entirely.
+
+It is a new coding approach where we let I write the code entirely, practically forgetting the code
+
+even exists anyway.
+
+Hello and welcome to this course where we'll explore this new and exciting way of building software
+
+called Vibe Coding.
+
+My name is Valentin and I'm really glad you are here.
+
+I believe that education has no borders.
+
+So if you have any issues following along with what I'm saying, enable video subtitles with captions
+
+button from the video player.
+
+Also, check all the extra options in the caption settings to adjust them to your liking.
+
+The captions may not always be perfect, but I guarantee they won't transcribe vibe coding as pipe loading.
+
+Vibe coding lets you build apps by simply describing them in plain English.
+
+No need to worry about programming languages like JavaScript or Python.
+
+Heighten.
+
+If you ever copied code from ChatGPT, pasted it into your code editor, and then send back any errors
+
+that occurred, congratulations!
+
+You're already done some coding.
+
+But trust me, you'll be blown away by what else is possible.
+
+Do you know why I'm most excited about coding?
+
+Because it helps people build stuff.
+
+Vibe coding isn't a new tool.
+
+It is more of a mindset or approach for writing code and building applications.
+
+The term was coined by Andrej Karpathy, who describes vibe coding as the approach where you fully give
+
+into the vibes, embrace exponentials, and forget the code even exists.
+
+On the front lines of this movement are tools like cursor and windsurf.
+
+Let me briefly walk you through a simple project.
+
+So this is cursor, which is based on VSCode.
+
+To create a new project, you can simply chat with cursor, which behind the scenes is using an LLM
+
+and will immediately get to work.
+
+I'm going to ask it to recreate my childhood game.
+
+A space shooter from the 90s.
+
+And here's the cool part.
+
+Because it is an agent, it has a lot of actions on its own.
+
+By creating files, executing commands, installing dependencies, deploying, and so on.
+
+In less than a few minutes you will have your first working iteration.
+
+Yes, I know it doesn't look great, but still, I think it's amazing what you can do in just one minute.
+
+In traditional programming, you need to know every line, every file.
+
+But today, the way we build software is changing fast.
+
+Regardless of whether we agree or disagree with what's going on quickly, writing code isn't the main
+
+skill anymore.
+
+The I can do that.
+
+Instead, the most important skills now are being able to understand, debug and guide the AI.
+
+This course is for anyone curious about how AI is changing software development.
+
+Whether you're a complete beginner or already working as a developer, I will show you how I can help
+
+you build faster, but also what you still need to know to do it right.
+
+Together we'll explore different tools and do a few projects from very easy to a bit more advanced.
+
+We'll talk about how to prototype apps, spot bad code, and what skills matter most in this new era.
+
+We will experience first hand why having strong fundamentals is still important, especially if you
+
+want to build advanced and production ready apps.
+
+By the end of this course, you'll be able to describe your app ideas in natural language and turn them
+
+into working prototypes using AI powered tools.
+
+We'll also learn essential software development practices, such as using code versioning with git,
+
+organizing projects into clear, maintainable structures, writing and running tests, and automating
+
+any parts of the process such as deployments.
+
+This isn't just about getting code written faster, it's about learning how to build real world, production
+
+ready apps with confidence.
+
+Even if you're just starting out, it still takes time, practice, and a lot of patience.
+
+But with the right mindset and the help of AI, you can go from idea to a working prototype and potentially
+
+a product in record time.
+
+That said, don't expect magic from just one prompt.
+
+It is like telling a builder build me house.
+
+You still need to specify size, style, and materials.
+
+The clearer your instructions, the better the result.
+
+Rome wasn't built in a day.
+
+Like any project, start with a software spec.
+
+Break it down into smaller tasks and build step by step, one feature at a time.
+
+This is how software development works anyway.
+
+You need to get really good at providing these instructions, so English or your native language will
+
+be the programming language.
+
+If you are just getting started with coding, don't worry, I'll help you focus on the basics and show
+
+you how to apply what you learned in small projects.
+
+Now, I don't want to overpromise and under-deliver.
+
+If you've never written code before, following along with this course will still be a challenge.
+
+There is a lot to learn, and going over some hiccups is still part of the process.
+
+But I'm here for you and I will make sure you learn a lot.
+
+Reach out anytime using the Q&A or message me directly whenever you need help.
+
+The tools are also evolving quickly.
+
+What used to take years to change now happens in months.
+
+So where do you love AI or still feel unsure about it?
+
+One thing is clear the game is changing and I want to help you stay ahead of the curve.
+
+Let's get started with our first project.
+
+I'll walk you through everything step by step.
+
+So grab your keyboard, bring your curiosity and a bit of coffee or tea.
+
+And let's dive into the world of coding, where building software is all about experimenting, learning,
+
+and working side by side with AI.

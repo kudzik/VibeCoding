@@ -1,0 +1,18 @@
+# Dockerfile dla trybu deweloperskiego
+FROM node:18-alpine
+
+# Ustaw katalog roboczy
+WORKDIR /app
+
+# Zainstaluj zależności
+COPY package*.json ./
+RUN npm install
+
+# Skopiuj kod źródłowy
+COPY . .
+
+# Ustaw port dla Vite dev server
+EXPOSE 5173
+
+# Uruchom serwer deweloperski
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]

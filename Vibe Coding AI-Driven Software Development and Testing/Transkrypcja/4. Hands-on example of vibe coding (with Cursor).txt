@@ -1,0 +1,179 @@
+4. Hands-on example of vibe coding (with Cursor)
+
+It is now time to build our first mini project using cursor.
+
+But how can we actually get started?
+
+Well, currently cursor doesn't have a way of starting a new project from scratch.
+
+I'm not sure what's the logic behind it, but I hope it's going to change in the future.
+
+Anyway, for now, the first step is to create an empty folder.
+
+And once you have that empty folder somewhere on your file system, click here on Open Project, even
+
+if there's nothing inside there.
+
+So the folder that I'm going to open is called 2D Space Shooter because yes, you have guessed it,
+
+we're gonna build a simple game.
+
+So this is how the entire project looks like when we're getting started.
+
+Just in case you don't see this chat part here, that's super important.
+
+This is where all the magic is happening.
+
+Make sure that this pane here is enabled.
+
+So you have here on the right hand corner this option of enabling and disable this.
+
+If you need a terminal window you can also enable and disable it from this other panel here that you
+
+have.
+
+And also there's this sidebar which is going to show us all the files, but for now, we're just going
+
+to keep here this chat part and feel free to make it a bit bigger.
+
+Now the next important thing is to have here selected agent.
+
+Now it is possible that initially it's going to be set here to ask, which is pretty much like ChatGPT
+
+asking something, and then it's going to get you a response.
+
+Actually you want to enable this agentic mode.
+
+So what is an agent?
+
+An AI agent is a tool.
+
+And you can think of it like a smart assistant that can read your code, understand what you're trying
+
+to do, and can help you write or fix code automatically, create files, run commands, and so on,
+
+and you want to see it in action in just a second.
+
+But super important, make sure it is set here to agent and here as a prompt.
+
+We're going to provide our instruction.
+
+And what we actually want to do is to build a simple game.
+
+So the instruction is going to be very, very simple.
+
+Build a 2D space shooter game using three.js.
+
+I'm going to click here on send.
+
+And now this code is going to be generated.
+
+So it's going to tell you step by step what needs to be done.
+
+And you're going to see here files appearing.
+
+So this is the package.json file which is storing all the dependencies.
+
+And then it's creating some files for example index.html file.
+
+So you see here things appearing on the screen at the same time code is being generated.
+
+I'm going to leave it for just a few seconds to complete what it is doing.
+
+So at this point the agent has created a bunch of files.
+
+We can go here to the history and understand exactly what is the purpose of every file.
+
+We can also ask follow up questions so we can ask, hey, why do we need that particular file?
+
+And we can also see here in source the various files that have been created in order to get this application
+
+to run.
+
+So if we agree with all the changes that have been added here, we can simply accept all.
+
+So then they're going to be pretty much safe is part of our project.
+
+And now there are also a few things that the agent hasn't done.
+
+So first of all, we're going to take a look here at these instructions that are available here.
+
+It's going to tell us, hey, in order to get this to run you need to do a few things.
+
+First of all you need to run npm install and we get here this run button here.
+
+So we're going to click on it.
+
+So this is something that the agent has not done on its own because from a security perspective is a
+
+bit more tricky.
+
+We can configure that as well.
+
+We're going to see it soon.
+
+And after we have installed all the dependencies we can start the development server.
+
+And this is done using the command npm start.
+
+And we can also click here.
+
+And this is going to be started.
+
+And what we're going to see here in the terminal is actually the address where this application is running.
+
+So all you need to do is click on this.
+
+It's going to be either pressing the control or the command key on your keyboard in order to open this
+
+in a browser.
+
+And this is how the game looks like and figure out what I can do.
+
+It looks like my version doesn't allow me to shoot.
+
+Typically that should be with a space key.
+
+Left and right is working just fine, but if one of the bad guys catches me, then I'm gonna die.
+
+So currently the game still has a few bugs.
+
+Maybe your version is working.
+
+It really depends, but you can go ahead and continue the conversation.
+
+So let's see.
+
+For example, for my use case, how can I shoot?
+
+And we can go ahead and ask, I'm gonna press enter or hit send and it's going to notice, hey, this
+
+guy cannot shoot or there's a problem and it's going to go ahead and directly update the code, going
+
+to make all the changes.
+
+And then all we need to do is restart the game.
+
+So as you can see, the agent is pretty independent.
+
+It's figuring out on its own what needs to be done.
+
+It's going to go again with accept all without really looking into what has happened there.
+
+The application is going to be restarted and I'm going to open the browser and take a look at the game
+
+again.
+
+So now look, I can shoot in.
+
+This particular bug has been fixed by the agent itself.
+
+Well it would have been nice if this would have been done right right from the start.
+
+But this was just a simple demonstration, maybe in a graphical way, that helps you better understand
+
+exactly what coding is all about, how does it work?
+
+And even if this example is simple and childish, I think you're gonna get the main idea out of it.
+
+So enjoy the game and see you in the next one.

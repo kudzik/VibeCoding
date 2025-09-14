@@ -1,0 +1,127 @@
+8. Traditional vs Vibe coding workflow
+
+Software development is not just about writing code.
+
+There's so much more that needs to be done before and after that happens.
+
+If you want to build apps that are ready to be used in real life, like production ready apps using
+
+coding, we need to understand the steps they need to bring something to life and make it available.
+
+This process is called software development lifecycle.
+
+Sounds kind of boring, but it's super important for everything that we're going to do next.
+
+Some parts of this process can be done completely by AI, but we typically tend to get the best results
+
+when we stay in control and guide the AI and not the other way around.
+
+In agile software development, we try to move through these steps quickly and repeat them many times
+
+in a short period, and each time we learn something and improve the app.
+
+So let's briefly go over the steps and try to understand why they are important.
+
+So we're going to start here with a plan.
+
+So we need to understand what we're trying to build.
+
+And we typically are going from just one idea to understanding who could use this particular software.
+
+We're gathering requirements.
+
+We're trying to break things down into smaller, more manageable work.
+
+You can call them user stories if you want.
+
+You're also trying to figure out like how much it's going to cost us.
+
+What's our timeline?
+
+What does the team is available for this?
+
+Of course, if you're relying more on AI, then we don't really need a team.
+
+But still, don't underestimate the effort that goes into planning something.
+
+And this planning also extends a bit into the second part of the design.
+
+And we need to think about architecture.
+
+Like how do you want to structure this entire application.
+
+What kind of technology do you want to use.
+
+Or the technology stack is super important.
+
+How we want the interface to look like.
+
+What are the different navigation flows that we can imagine?
+
+Those are technical things like where are we going to store the data and we need to rely on external
+
+APIs and so on.
+
+So there's a lot of thought that goes into this initial part before a single line of code has been written.
+
+I or not I The problem that we're trying to solve is pretty much the same, and it is a problem regarding
+
+to the product.
+
+So we need to be product engineers before we can begin.
+
+Now of course, when we're trying to implement this, of course we can heavily rely on the AI, but
+
+still we have the code.
+
+If we have human people reviewing the code, that's even better because you can increase the code quality.
+
+And of course, you want to make sure that in this process, we are also documenting everything so that
+
+we can reference back to it after the code has been written.
+
+We want to ensure quality and this is done by various levels of testing.
+
+So this is what's known as a testing pyramid.
+
+Right at the bottom we have unit tests because they're super fast to be executed right at the top.
+
+Kind of like expensive.
+
+We have user acceptance tests, and those ensure that the entire application over various components
+
+is working as expected.
+
+And last but not least, of course we want to deploy one to launch our application.
+
+Typically we have various environments that we're using, like for example, staging environment or
+
+test environment before we actually go to production.
+
+And even there there are a lot of things that we need to consider in the process.
+
+We want to use version control to keep track of all the changes that we have.
+
+Now.
+
+Once the application is running, we still need to iterate over this entire life cycle as fast as possible.
+
+So, for example, there can be bugs that occur and that we're trying to fix just as well.
+
+We may want to add additional features, or maybe there are some dependencies that we want to keep up
+
+to date.
+
+And overall, we want to try to have like an overview of what the users are doing.
+
+How is the application doing like to track different performance metrics, make sure that everything
+
+is running smoothly.
+
+So in a nutshell, this is the software development life cycle.
+
+And we're going to implement various parts of it throughout the course.
+
+So this is why it's important for you to be familiar with the concepts here.
+
+But of course I'm going to go deeper as we progress through this course.
