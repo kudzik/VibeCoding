@@ -1,0 +1,155 @@
+16. Adding automated tests
+
+As you can probably tell, manually testing the entire application after each change is very, very
+
+time consuming, and after building some features, it gets a bit annoying, right?
+
+So we want to make sure that whatever feature we have built so far is still working, even if we're
+
+adding additional features to the application so that we don't have to test everything from scratch.
+
+And to automate this process, we should write some tests.
+
+So the test exists for exactly that reason, to replace the need for manual testing, and to just have
+
+some automated tests that can be executed by the agent to tell if the application is still working or
+
+not.
+
+Now, there are various types of tests that we can write.
+
+We can also go ahead and consult with the agent or with ChatGPT.
+
+So we can say directly here, like what kind of test does it make sense to write for this app?
+
+Definitely what you want to have is a pyramid of tests.
+
+It's called the testing pyramid.
+
+Right at the bottom we typically have unit tests and unit tests are testing just a small part of the
+
+application, typically only a specific file or a specific function.
+
+And we have lots of these unit tests because they're very fast to execute.
+
+We can have after that integration or component test which tests how different components in our application
+
+work together, either stand alone or in combination with other components.
+
+And also we can have end to end tests.
+
+And these are pretty much tests that will open a browser window and test if the application itself is
+
+working.
+
+Click on buttons and things like that.
+
+Generally end to end tests, we should only have a few of them for very important features.
+
+We're going to hear a response in terms of like kind of tests we want to use here.
+
+So if you're unsure ideally an application should have tests on all levels.
+
+But in this case I'm just going to ask the agent for the functionality that has been implemented so
+
+far to write end to end tests using playwright, which is a very popular framework for writing and running
+
+end to end tests is a bit of a setup, but we're going to try to follow along.
+
+Typically, during the installation process, we might be asked to run a few commands.
+
+Also, writing this test is not always easy because the I may write some tests and then very likely
+
+they will also fail.
+
+So the AI needs to figure out how to install them, and so on.
+
+So we're going to try to figure out that as well.
+
+I'm going to let the agent do its thing.
+
+Start initializing the playwright test creating the files and so on.
+
+And we're going to see how this works out.
+
+So typically what we're going to see during this test is that a server has been started.
+
+So if you go to this address you should see here an HTML report.
+
+So this is the HTML report with the different tests that have been executed.
+
+And we see here that one of them is failing.
+
+So this is not good.
+
+In this situation we can see that it's a bit more complicated for the agent to continue.
+
+I'm going to click here skip and continue.
+
+You.
+
+And while this is still generating here, you always need to pay attention to this is still generating.
+
+It means it's still doing something.
+
+If it's getting stuck on a command, we typically need to do something, but we're going to let it generate.
+
+As long as it's generating, we're not going to do anything else.
+
+So again, the tests have been executed.
+
+Something is not working properly.
+
+We're going to give the agent another chance to fix it.
+
+So let's see exactly what's going on here.
+
+May need a bit of manual intervention a bit of manual help.
+
+So now what we want to see here is finally that all these tests are passing.
+
+We're going to see here the HTML report.
+
+If we want to run this particular command here we can see the report that was previously on the screen.
+
+Generally speaking we're not really interested in that.
+
+We just want to make sure that these tests are running.
+
+If we want to manually run them, all we need to do is tell the agent, run the end to end test.
+
+We don't need to remember a specific command.
+
+We can just use natural language to run the tests we're going to see here.
+
+All tests are passing, which means also the application is still working.
+
+So all we need to do is also take a look at application itself and go back to home.
+
+We have here the buttons.
+
+So for whatever functionality we have implemented so far, there should be a test.
+
+Of course, if we discover a bug, we need to go to the agent and say fix the bug, but also write a
+
+test.
+
+And ideally in the order of first write a test that fails because of the bug, and then fix the bug
+
+and ensure that the test is also now working.
+
+Apart from this, we also want to revisit the git ignore files and want to make sure that all this additional
+
+folders that have been added, like test results or playwright report that they are considered because
+
+we don't want to commit them.
+
+So we're just going to say here, revisit the.
+
+Gitignore file and commit the changes.
+
+So want to make sure that there's nothing that we have forgotten about.
+
+I'm going to stage the files and commit the changes.
+
+And we should also accept here all the changes that have been made by cursor.

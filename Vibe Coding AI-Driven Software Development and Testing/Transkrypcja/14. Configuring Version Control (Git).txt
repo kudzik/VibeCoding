@@ -1,0 +1,119 @@
+14. Configuring Version Control (Git)
+
+When we're working on code, whether it is just us or an entire team, it is super important to keep
+
+track of the changes we make.
+
+And this is where git and version control come in, especially when coding the.
+
+I might generate code that doesn't work or can even break the application entirely.
+
+And it can be difficult to revert to a previous version.
+
+With git, we can easily roll back to a previous version that did work without losing anything.
+
+So how does it work?
+
+Every time we make progress and have a state that is working and that we're happy with it, we can commit
+
+the changes so that we have a record of how the code looked like at that point in time.
+
+And I'm going to show you it is relatively easy.
+
+The first thing that we need to do is conversion this project with git.
+
+So all you need to do is instruct the agent to add git to this project.
+
+So the agent will interact with the git CLI tool.
+
+You're going to see here that we are being asked to run this command.
+
+Git init is going to initialize a git repository.
+
+It's going to create also a git ignore file, which is super important because there are some files
+
+that we definitely do not want to store under git.
+
+For example, we have here the dependencies in the node modules.
+
+There can also be other files that we don't want to have there.
+
+We can take a look here at.
+
+Gitignore file we're going to see here what has been added to it.
+
+Quite a few files here.
+
+We're going to click here on accept.
+
+Now the next part is staging the files.
+
+Now we definitely do want to have a look at everything that is inside here.
+
+For example there's still this temp vite project that I have here.
+
+And this is something that I no longer want to have inside.
+
+So I'm going to go ahead and delete this project.
+
+I also want to make sure that I'm not committing any changes that shouldn't be there.
+
+The rest of them look quite okay.
+
+So I'm gonna stage the files, which simply means that we are adding these files to a secondary stage
+
+where we're preparing to commit them, and then we're going to create the initial commit.
+
+And this commit is going to get a message.
+
+This is something that the agent is doing automatically for us.
+
+It's going to provide a nice message explaining what we have done with this particular change.
+
+So it has been initialized a.
+
+Gitignore file has been created.
+
+So now we have this these particular changes here.
+
+Now, there's one important thing I want to point out.
+
+You're going to see that whenever the agent is making changes to a specific file, you're going to get
+
+here this prompt accept file or reject file.
+
+And you're going to also see here accept or reject.
+
+This is independent of git.
+
+And this is a way of reverting recent changes that I made.
+
+This is still an important feature.
+
+And it's kind of like a quick way to revert to something that was working.
+
+But sometimes you can make a lot of changes.
+
+You can even accept the changes that I made.
+
+And this is when actually git can be an interesting backup.
+
+So we can go over the individual files and see exactly what has changed here.
+
+So we can see what are the changes in this file.
+
+So here we're going to get a prompt.
+
+Something has been removed.
+
+This is why it is in red.
+
+And we can accept this particular change.
+
+Or we can accept the entire file or we can accept everything if there are multiple files that have been
+
+changed.
+
+Just keep in mind git and this version control of accepting or rejecting files from cursor are slightly
+
+different, but they're all very, very helpful.

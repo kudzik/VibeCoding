@@ -1,0 +1,105 @@
+15. Iterating with new features
+
+So let's continue with building features.
+
+We are now at phase two of our project, and there's still a lot of work that needs to be done.
+
+So in this lecture we're going to go ahead and create the next two features that are being listed here.
+
+Essentially what we want to see is a flash card being displayed.
+
+So I'm going to use the following prompt, which you're going to find as a resource to this lecture,
+
+which instructs the agent to build the first two features listed under the phase two.
+
+So this is the plan.
+
+And we're going to follow along and see exactly what is happening.
+
+Now the agent reports that these features have been built.
+
+And we should usually go over and see exactly what the AI is telling us, but you can also directly
+
+jump into the application.
+
+I'm going to go ahead into study mode.
+
+What we're going to see here is again, some UI issues.
+
+Instead of getting a proper list, we're going to get again this broken UI.
+
+Okay.
+
+Anyway let's click on animals And we're going to see absolutely nothing here.
+
+If you click on food, we're going to see nothing.
+
+And if you click on verbs we're going to see nothing.
+
+So not sure exactly what is the problem.
+
+I think the problem is a lack of data.
+
+And I'm going to ask the AI and report this to issues that I found after this manual test.
+
+So let's go ahead and see if the agent manages to figure out the two issues that I found after this
+
+manual test.
+
+Okay.
+
+So we've been instructed to check the browser again.
+
+So let's go ahead and do exactly that.
+
+I'll select animals.
+
+And now what we're going to see here is a card.
+
+So El Perro is a dog or the dog.
+
+So we have that.
+
+Perfect.
+
+Let's go to the next card.
+
+El Gato is the cat.
+
+So this seems to be working properly.
+
+We can go back to the categories.
+
+Okay.
+
+The UI is not great, but is definitely acceptable.
+
+And we can say okay, now we have built this additional feature.
+
+It seems to be working properly.
+
+What we're going to see here again in the to do list is this mess.
+
+Because we're going to get here a diff.
+
+And what we want to do at this point is again accept all.
+
+And then we're going to see exactly what has been built.
+
+So from phase two we see that these two first items have been built and we have tested this.
+
+We are happy with what we're seeing.
+
+So all we need to do is simply also go ahead and commit the changes.
+
+And the agent is going to figure out a commit message is going to stage those files.
+
+We can also add the git directly as one of these commands that can be executed.
+
+Like to take a quick look and see exactly what is being executed here.
+
+So we're going to see here the commit.
+
+And this is the commit message saying that phase two or part of phase two has been implemented.
+
+And now this is pretty much done in terms of implementing this particular part of the application.
