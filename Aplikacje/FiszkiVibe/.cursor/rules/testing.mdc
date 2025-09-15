@@ -1,0 +1,18 @@
+---
+description: Automatycznie uruchamiaj testy po wprowadzeniu nowej funkcjonalności
+globs: ["src/**/*", "**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+alwaysApply: true
+---
+# Zasady
+
+Zawsze po wprowadzeniu nowej funkcjonalności lub zmianach w kodzie, automatycznie uruchamiaj testy używając odpowiedniej komendy testowej dla projektu.
+
+Jeśli projekt ma skonfigurowane testy:
+
+- Sprawdź package.json aby znaleźć dostępne skrypty testowe
+- Użyj odpowiedniej komendy (np. npm test, npm run test, yarn test, itp.)
+
+Jeśli projekt nie ma jeszcze skonfigurowanych testów:
+
+- Uruchom linter (npm run lint) jako alternatywę
+- Zasugeruj dodanie frameworka testowego (np. Vitest, Jest) jeśli to konieczne

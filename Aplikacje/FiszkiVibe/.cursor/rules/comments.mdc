@@ -1,0 +1,59 @@
+---
+description: Zasady pisania komentarzy w kodzie
+globs: ["src/**/*", "**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+alwaysApply: true
+---
+
+# Zasady komentarzy
+
+Zawsze przestrzegaj następujących zasad przy pisaniu komentarzy w kodzie:
+
+## Główne zasady
+
+- **Komentarz powinien wyjaśniać cel funkcji lub klasy, a nie jej składnię.**
+- Używaj języka naturalnego, zwięzłego i zrozumiałego dla członków zespołu.
+- Komentarze powinny być aktualne – nie opisuj zachowań, które już nie występują.
+- Unikaj oczywistych komentarzy typu `// inkrementuj zmienną o 1`.
+- W przypadku złożonych fragmentów kodu dodaj komentarz wyjaśniający **dlaczego** kod działa w ten sposób.
+- Jeśli kod zawiera tymczasowe obejścia lub zależności, zaznacz to w komentarzu (`TODO`, `FIXME`, `NOTE`).
+- Komentarze powinny być zgodne ze stylem języka programowania.
+
+## Przykłady dobrych komentarzy
+
+```typescript
+// ❌ Zły komentarz - opisuje składnię
+// Dodaje 1 do licznika
+counter++;
+
+// ✅ Dobry komentarz - wyjaśnia cel
+// Zwiększ licznik błędów dla raportowania
+counter++;
+
+// ✅ Komentarz wyjaśniający dlaczego
+// Używamy setTimeout zamiast Promise.resolve() 
+// aby uniknąć problemów z kolejnością wykonania w React
+setTimeout(() => {
+  updateState();
+}, 0);
+
+// ✅ Komentarz z oznaczeniem tymczasowego rozwiązania
+// TODO: Zastąpić tymczasowe API endpointem produkcyjnym
+const API_URL = 'http://localhost:3000/api';
+```
+
+## Oznaczenia specjalne
+
+- `TODO:` - zadania do wykonania w przyszłości
+- `FIXME:` - znane problemy wymagające naprawy
+- `NOTE:` - ważne informacje dla deweloperów
+- `HACK:` - tymczasowe obejścia problemów
+
+## Testowanie po dodaniu komentarzy
+
+Po dodaniu komentarzy do kodu, zawsze uruchamiaj testy jednostkowe i E2E, aby upewnić się, że kod nie został zmodyfikowany funkcjonalnie:
+
+1. **Testy jednostkowe** - sprawdź czy wszystkie funkcje działają poprawnie
+2. **Testy E2E** - zweryfikuj czy aplikacja działa zgodnie z oczekiwaniami
+3. **Linter** - uruchom jako alternatywę jeśli testy nie są jeszcze skonfigurowane
+
+Komentarze nie powinny wpływać na logikę aplikacji, ale testy pomogą wykryć ewentualne przypadkowe zmiany w kodzie.
