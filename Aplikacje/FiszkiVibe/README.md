@@ -43,6 +43,12 @@ npm run dev
 
 4. Otwórz przeglądarkę i przejdź do `http://localhost:5173`
 
+## 📸 Podgląd aplikacji
+
+![Spanish Flashcards App](img/Screenshot.png)
+
+**Interfejs aplikacji - wybór kategorii fiszek do nauki**
+
 ## 🎮 Jak używać
 
 1. **Wybierz kategorię** - Na stronie głównej wybierz kategorię słówek do nauki
@@ -79,6 +85,76 @@ src/
 - **Rodzina** - Członkowie rodziny
 - **Miejsca** - Miejsca w mieście
 
+## ➕ Dodawanie własnych fiszek
+
+Aby dodać własne fiszki do aplikacji, edytuj plik `src/data/flashcards.ts`:
+
+### Format fiszki
+
+```typescript
+{
+  id: 'unikalny-id',           // Unikalny identyfikator
+  spanish: 'słowo po hiszpańsku',  // Słowo/zwrot w języku hiszpańskim
+  polish: 'tłumaczenie',       // Tłumaczenie na język polski
+  category: 'nazwa-kategorii', // ID kategorii (musi istnieć w categories.ts)
+  difficulty: 'easy',          // Poziom trudności: 'easy', 'medium', 'hard'
+  createdAt: new Date(),       // Data utworzenia
+  reviewCount: 0,              // Liczba powtórzeń (zaczyna od 0)
+  correctCount: 0,             // Liczba poprawnych odpowiedzi (zaczyna od 0)
+}
+```
+
+### Przykład dodania nowej fiszki
+
+```typescript
+// W pliku src/data/flashcards.ts
+export const initialFlashcards: Flashcard[] = [
+  // ... istniejące fiszki ...
+  
+  // Nowa fiszka
+  {
+    id: '23',
+    spanish: 'buenos días',
+    polish: 'dzień dobry',
+    category: 'podstawowe',
+    difficulty: 'easy',
+    createdAt: new Date(),
+    reviewCount: 0,
+    correctCount: 0,
+  },
+];
+```
+
+### Dodawanie nowej kategorii
+
+Aby dodać nową kategorię, edytuj plik `src/data/categories.ts`:
+
+```typescript
+// W pliku src/data/categories.ts
+export const categories: Category[] = [
+  // ... istniejące kategorie ...
+  
+  // Nowa kategoria
+  {
+    id: 'zwierzeta',
+    name: 'Zwierzęta',
+    description: 'Nazwy zwierząt',
+    color: '#10B981',
+    cardCount: 5, // Liczba fiszek w tej kategorii
+  },
+];
+```
+
+### Dostępne kategorie
+
+- `podstawowe` - Podstawowe słowa i zwroty
+- `kolory` - Nazwy kolorów  
+- `liczby` - Liczby od 1 do 10
+- `rodzina` - Członkowie rodziny
+- `miejsca` - Miejsca w mieście
+
+**💡 Wskazówka:** Po dodaniu nowych fiszek, zrestartuj serwer deweloperski (`npm run dev`) aby zobaczyć zmiany.
+
 ## 🔧 Dostępne skrypty
 
 - `npm run dev` - Uruchom serwer deweloperski
@@ -97,9 +173,11 @@ Aplikacja jest w pełni responsywna i działa na:
 ## 🚀 Deployment
 
 ### Wersja Live
+
 Aplikacja jest dostępna online na: **https://vibe-fiszki-uxtfh9kf5-fiszki-vibes-projects.vercel.app**
 
 ### Lokalny Build
+
 Aby zbudować aplikację do produkcji:
 
 ```bash
@@ -108,7 +186,43 @@ npm run build
 
 Pliki zostaną wygenerowane w folderze `dist/`, które można wdrożyć na dowolnym serwerze statycznym.
 
+**✅ Naprawione problemy z buildem:**
+
+- Usunięto konfliktujące style CSS z `App.css`
+- Dodano konfigurację `base: './'` w `vite.config.ts` dla poprawnego ładowania zasobów
+- Aplikacja teraz poprawnie wyświetla się po zbudowaniu
+
+### Uruchamianie zbudowanej aplikacji
+
+**⚠️ Ważne:** Nie otwieraj pliku `dist/index.html` bezpośrednio w przeglądarce (`file://`), ponieważ może to powodować problemy z ładowaniem zasobów.
+
+**✅ Prawidłowy sposób uruchamiania:**
+
+1. **Zbuduj aplikację:**
+
+   ```bash
+   npm run build
+   ```
+
+2. **Uruchom serwer preview:**
+
+   ```bash
+   npm run preview
+   ```
+
+3. **Otwórz w przeglądarce:**
+   - Aplikacja będzie dostępna na `http://localhost:4173/`
+   - Jeśli port 4173 jest zajęty, Vite automatycznie użyje kolejnego dostępnego portu (np. 4174)
+   - Sprawdź terminal, aby zobaczyć dokładny adres URL
+
+**Dlaczego nie `file://`?**
+
+- Przeglądarki blokują ładowanie modułów ES6 z lokalnych plików (polityka CORS)
+- Ścieżki względne mogą nie działać poprawnie w kontekście `file://`
+- Serwer HTTP zapewnia prawidłowe ładowanie wszystkich zasobów
+
 ### Deployment na Vercel
+
 Aplikacja jest automatycznie wdrażana na Vercel. Aby zaktualizować wersję produkcyjną:
 
 ```bash
@@ -120,6 +234,7 @@ vercel --prod
 ```
 
 ### Automatyczne Deployment
+
 Każdy push do głównej gałęzi repozytorium automatycznie wdraża nową wersję aplikacji.
 
 ## 🤝 Wkład w projekt
@@ -133,13 +248,3 @@ Każdy push do głównej gałęzi repozytorium automatycznie wdraża nową wersj
 ## 📄 Licencja
 
 Ten projekt jest dostępny na licencji MIT. Zobacz plik `LICENSE` dla szczegółów.
-
-## 🎯 Przyszłe funkcje
-
-- [ ] Dodawanie własnych fiszek
-- [ ] Tryb ciemny
-- [ ] Audio z wymową
-- [ ] System powtórek (spaced repetition)
-- [ ] Statystyki długoterminowe
-- [ ] Eksport/import danych
-- [ ] Tryb wieloosobowy
