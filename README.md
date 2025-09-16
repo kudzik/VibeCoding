@@ -48,3 +48,5 @@
 - Dla pytania : podsumowuję jego funkcje i zastosowania w klarownej formie, podaję słownik terminów i przykładowe prompty do dalszej pracy z AI. wyjaśniam czym jest, jak działa, podaję przykłady użycia i sposób konfiguracji.  
 - Dla kursów lub nauki: proponuję plan nauki i zalecenia dla użytkownika.  
 - Dla zagadnień technicznych: dostarczam szczegółowe wyjaśnienia, przykłady kodu i najlepsze praktyki.
+
+Stwórz notatkę z transkrypcji w pliku.
