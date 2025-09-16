@@ -174,7 +174,7 @@ Aplikacja jest w pełni responsywna i działa na:
 
 ### Wersja Live
 
-Aplikacja jest dostępna online na: **https://vibe-fiszki-uxtfh9kf5-fiszki-vibes-projects.vercel.app**
+Aplikacja jest dostępna online na: **<https://vibe-fiszki-uxtfh9kf5-fiszki-vibes-projects.vercel.app>**
 
 ### Lokalny Build
 
@@ -220,22 +220,6 @@ Pliki zostaną wygenerowane w folderze `dist/`, które można wdrożyć na dowol
 - Przeglądarki blokują ładowanie modułów ES6 z lokalnych plików (polityka CORS)
 - Ścieżki względne mogą nie działać poprawnie w kontekście `file://`
 - Serwer HTTP zapewnia prawidłowe ładowanie wszystkich zasobów
-
-### Deployment na Vercel
-
-Aplikacja jest automatycznie wdrażana na Vercel. Aby zaktualizować wersję produkcyjną:
-
-```bash
-# Zaloguj się do Vercel
-vercel login
-
-# Wdróż aplikację
-vercel --prod
-```
-
-### Automatyczne Deployment
-
-Każdy push do głównej gałęzi repozytorium automatycznie wdraża nową wersję aplikacji.
 
 ## 🤝 Wkład w projekt
 
