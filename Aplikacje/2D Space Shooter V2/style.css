@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+#gameContainer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#gameCanvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
+#ui {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-family: 'Orbitron', monospace;
+    z-index: 100;
+}
+
+#highScore,
+#score,
+#lives {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+    background: linear-gradient(45deg, #00ffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 2px;
+}
+
+#highScore {
+    background: linear-gradient(45deg, #ffaa00, #ffff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 0 10px #ffaa00, 0 0 20px #ffaa00, 0 0 30px #ffaa00;
+}
+
+#audioBtn, #gameOver {
+    background: linear-gradient(45deg, #001122, #003366);
+    color: #00ffff;
+    border: 2px solid #00ffff;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-family: 'Orbitron', monospace;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    text-shadow: 0 0 5px #00ffff;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+#audioBtn:hover {
+    background: linear-gradient(45deg, #002244, #004488);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+    transform: translateY(-1px);
+}
+
+#audioBtn.enabled {
+    background: linear-gradient(45deg, #002244, #004488);
+    color: #00ffff;
+    border-color: #00ffff;
+    text-shadow: 0 0 8px #00ffff;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+}
+
+#audioBtn.enabled:hover {
+    background: linear-gradient(45deg, #003366, #0066aa);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+}
+
+#gameOver {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(135deg, rgba(0, 17, 34, 0.95), rgba(0, 51, 102, 0.95));
+    color: white;
+    padding: 40px;
+    border-radius: 15px;
+    border: 2px solid #00ffff;
+    text-align: center;
+    z-index: 200;
+    font-family: 'Orbitron', monospace;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.3), inset 0 0 20px rgba(0, 255, 255, 0.1);
+}
+
+#gameOver h2 {
+    margin-top: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #ff4444;
+    text-shadow: 0 0 15px #ff4444, 0 0 30px #ff4444;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+#gameOver p {
+    font-size: 20px;
+    color: #00ffff;
+    text-shadow: 0 0 5px #00ffff;
+    margin-bottom: 25px;
+}
+
+#restartBtn {
+    background: linear-gradient(45deg, #220044, #440088);
+    color: #ff88ff;
+    border: 2px solid #ff88ff;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-family: 'Orbitron', monospace;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-shadow: 0 0 8px #ff88ff, 0 0 16px #ff88ff;
+    box-shadow: 0 0 20px rgba(255, 136, 255, 0.5), inset 0 0 10px rgba(255, 136, 255, 0.1);
+    transition: all 0.3s ease;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#restartBtn:hover {
+    background: linear-gradient(45deg, #330066, #6600cc);
+    box-shadow: 0 0 30px rgba(255, 136, 255, 0.8), inset 0 0 15px rgba(255, 136, 255, 0.2);
+    transform: translateY(-3px) scale(1.05);
+    text-shadow: 0 0 12px #ff88ff, 0 0 24px #ff88ff;
+}
