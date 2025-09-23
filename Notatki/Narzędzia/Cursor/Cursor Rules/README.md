@@ -38,6 +38,6 @@ Cursor to wszechstronne, wyjątkowo elastyczne narzędzie integrujące wszystkie
 [3](https://appwrk.com/cursor-ai-features/)
 [4](https://dev.to/velan/comprehensive-guide-mastering-ai-code-editor-cursor-4ik6)
 [5](https://supatest.ai/blog/cursor-ai-code-editor)
-[6](https://en.wikipedia.org/wiki/Cursor_(code_editor))
+[6](<https://en.wikipedia.org/wiki/Cursor_(code_editor)>)
 [7](https://www.builder.io/blog/cursor-advanced-features)
 [8](https://www.reddit.com/r/ChatGPTCoding/comments/1fewqga/what_is_cursor_ai_code_editor_and_how_does_it/)

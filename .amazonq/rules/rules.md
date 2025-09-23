@@ -1,6 +1,47 @@
 # 🤖 Zasady dla AI Assistant - VibeCoding
 
 **ZAWSZE odpowiadaj po polsku**
+**Dopytaj jeśli nie jesteś pewien**
+**Wybieraj pasujące zasady do typu projektu nad którym pracujesz**
+
+## 🎯 Wybór technologii i frameworków
+
+### Kryteria wyboru
+
+- **Rozmiar i złożoność projektu** - małe projekty: lekkie biblioteki, duże: pełne frameworki
+- **Doświadczenie zespołu** - wybieraj znane technologie lub z dobrą dokumentacją
+- **Wymagania wydajnościowe** - krytyczne aplikacje: natywne rozwiązania, prototypy: szybkie narzędzia
+- **Długoterminowe wsparcie** - sprawdź aktywność społeczności i roadmapę
+- **Ekosystem i integracje** - dostępność bibliotek, pluginów, narzędzi
+
+### Rekomendacje według typu projektu
+
+**Web Frontend:**
+- Małe/średnie SPA: React, Vue.js, Svelte
+- Duże aplikacje enterprise: Angular, Next.js
+- Statyczne strony: Astro, Gatsby, Hugo
+- Prototypy: Vite + vanilla JS/TS
+
+**Backend/API:**
+- Szybkie prototypy: Express.js, FastAPI, Flask
+- Skalowalne aplikacje: NestJS, Django, Spring Boot
+- Mikrousługi: Fastify, Koa, Gin
+- Serverless: Vercel Functions, AWS Lambda
+
+**Mobile:**
+- Cross-platform: React Native, Flutter
+- Natywne: Swift/Kotlin
+- Hybrydowe: Ionic, Capacitor
+
+**Desktop:**
+- Cross-platform: Electron, Tauri, Flutter Desktop
+- Natywne: .NET, Qt, JavaFX
+
+**Bazy danych:**
+- Relacyjne: PostgreSQL, MySQL
+- NoSQL: MongoDB, Redis
+- Embedded: SQLite, LevelDB
+- Cloud: Supabase, Firebase, PlanetScale
 
 ## 📝 Dokumentacja i śledzenie zmian
 
@@ -27,55 +68,86 @@
 ### Formatowanie
 
 - Stosuj czytelny i spójny styl (wcięcia, spacje, nawiasy)
-- Używaj konwencji języka (PEP8, ESLint, Prettier)
+- Używaj automatycznych formaterów (Prettier, Black, gofmt, rustfmt)
+- Konfiguruj lintery zgodnie z konwencjami języka
 - Nadawaj opisowe nazwy zmiennym, funkcjom, klasom
 - Unikaj skrótów i ogólnych nazw
+- Maksymalna długość linii: 80-120 znaków
 
 ### Architektura
 
-- Dziel kod na małe, jednozadaniowe funkcje
+- **Separation of Concerns** - oddzielaj logikę biznesową, prezentacji i danych
+- **Single Responsibility** - jedna klasa/funkcja = jeden cel
+- **Dependency Injection** - luźne powiązania między komponentami
+- **Layered Architecture** - warstwy: prezentacji, logiki, danych
+- **Modular Design** - logiczny podział na moduły/pakiety
+- **Configuration Management** - externalizuj konfigurację
 - Zasada DRY (Don't Repeat Yourself)
-- Logiczny układ plików i modułów
-- Oddzielaj logikę od konfiguracji (MVC, service layers)
+- YAGNI (You Aren't Gonna Need It) - nie implementuj niepotrzebnych funkcji
 
 ## 📚 Komentarze i dokumentacja kodu
 
-- Komentuj nietrywialne fragmenty z wyjaśnieniem celu
-- Stosuj standardy dokumentacji (docstringi, Javadoc)
+- **Self-documenting code** - kod powinien być zrozumiały sam w sobie
+- Komentuj "dlaczego", nie "co" robi kod
+- Stosuj standardy dokumentacji języka (JSDoc, docstrings, XML docs)
+- **API Documentation** - automatycznie generowana z kodu
 - Unikaj oczywistych komentarzy
-- Oznaczaj kod eksperymentalny jako `# EXPERIMENTAL`
+- Oznaczaj kod eksperymentalny jako `EXPERIMENTAL` lub `TODO`
+- **Architecture Decision Records (ADR)** - dokumentuj ważne decyzje
 
 ## 🛡️ Obsługa błędów i bezpieczeństwo
 
 ### Błędy
 
-- Dodawaj odpowiednią obsługę wyjątków
-- Jasne komunikaty błędów dla debugowania
+- **Fail Fast** - wykrywaj błędy jak najwcześniej
+- **Graceful Degradation** - aplikacja powinna działać mimo błędów
+- Używaj typowanych wyjątków/błędów
+- Jasne komunikaty błędów z kontekstem
+- **Structured Logging** - JSON, poziomy logowania
+- **Error Boundaries** - izoluj błędy w komponentach
+- **Circuit Breaker** - dla zewnętrznych usług
 - Unikaj "cichej" obsługi błędów
-- Loguj krytyczne błędy (ERROR, WARN, INFO)
 
 ### Bezpieczeństwo
 
-- Waliduj wszystkie dane wejściowe
-- Unikaj SQL injection, XSS
-- Nie zapisuj haseł/kluczy w repo - używaj `.env`
-- Aktualizuj zależności regularnie
+- **Input Validation** - waliduj i sanityzuj wszystkie dane wejściowe
+- **Output Encoding** - escape danych wyjściowych
+- **Authentication & Authorization** - wielopoziomowa kontrola dostępu
+- **Secure Communication** - HTTPS, TLS, certyfikaty
+- **Security Headers** - CSP, HSTS, X-Frame-Options
+- **Rate Limiting & Throttling** - ochrona przed atakami
+- **Secrets Management** - zewnętrzne systemy (Vault, AWS Secrets)
+- **Dependency Security** - regularne audyty i aktualizacje
+- **OWASP Guidelines** - stosuj aktualne standardy bezpieczeństwa
+- **Security Testing** - SAST, DAST, penetration testing
 
 ## ⚡ Wydajność i testowanie
 
 ### Optymalizacja
 
-- Wybieraj optymalne struktury danych i algorytmy
-- Unikaj niepotrzebnych obliczeń
-- Optymalizuj po potwierdzeniu problemu
-- Testuj wydajność krytycznych fragmentów
+- **Performance Budgets** - ustaw limity rozmiaru i czasu ładowania
+- **Profiling** - mierz przed optymalizacją
+- **Caching Strategy** - wielopoziomowe cache'owanie
+- **Lazy Loading** - ładuj zasoby na żądanie
+- **Code Splitting** - dziel kod na mniejsze części
+- **Database Optimization** - indeksy, query optimization
+- **Memory Management** - unikaj wycieków pamięci
+- **Algorithm Complexity** - wybieraj optymalne algorytmy
+- **Resource Compression** - kompresuj statyczne zasoby
+- **CDN Usage** - dystrybuuj zasoby globalnie
 
 ### Testy
 
-- Kod modułowy, łatwy do testowania
-- Generuj testy jednostkowe dla ważnych funkcji
-- Dodawaj testy integracyjne
-- Integruj z CI/CD (GitHub Actions)
+- **Test Pyramid** - jednostkowe > integracyjne > E2E
+- **Test Coverage** - minimum 80% dla kodu krytycznego
+- **Test-Driven Development** - red-green-refactor
+- **Behavior-Driven Development** - testy opisujące zachowanie
+- **Property-Based Testing** - testuj właściwości, nie przypadki
+- **Mutation Testing** - testuj jakość testów
+- **Contract Testing** - dla API i mikrousług
+- **Performance Testing** - load, stress, spike testing
+- **Security Testing** - automated security scans
+- **CI/CD Integration** - automatyczne uruchamianie testów
 
 ## 🔄 Git i wersjonowanie
 
@@ -117,6 +189,12 @@ feat(auth): dodaj logowanie przez Google
 - Oznaczaj wykonane checkboxem ✅
 - Dodawaj nowe zadania w trakcie pracy
 
+### ISSUE Management
+
+- **Zawsze aktualizuj ISSUE.md przed commitem** - skanuj i oznacz rozwiązane problemy
+- **Dokumentuj decyzje architektoniczne** - ADR (Architecture Decision Records)
+- **Taguj wersje** - każda wersja powinna mieć tag w Git
+
 ## 🎯 Dodatkowe zasady
 
 ### Clean Code
@@ -128,9 +206,55 @@ feat(auth): dodaj logowanie przez Google
 
 ### Wzorce i konwencje
 
+- **SOLID principles** - Single Responsibility, Open/Closed, etc.
 - Używaj wzorców typowych dla języka
 - Dokumentuj niestandardowe rozwiązania
 - Stosuj stałe i enumy zamiast "magic numbers"
+
+## 📱 User Experience i dostępność
+
+### Responsive Design
+
+- **Mobile First** - projektuj od najmniejszych ekranów
+- **Progressive Enhancement** - podstawowa funkcjonalność dla wszystkich
+- **Touch-friendly** - minimum 44px dla elementów interaktywnych
+- **Flexible Layouts** - używaj relatywnych jednostek
+- **Performance Budget** - optymalizuj dla wolnych połączeń
+
+### Accessibility (WCAG 2.1 AA)
+
+- **Semantic Markup** - używaj znaczących elementów HTML
+- **ARIA Support** - labels, roles, properties
+- **Keyboard Navigation** - pełna obsługa klawiatury
+- **Color Contrast** - minimum 4.5:1 dla tekstu
+- **Screen Reader Support** - testuj z czytnikami ekranu
+- **Focus Management** - widoczny i logiczny focus
+- **Alternative Text** - opisy dla treści multimedialnych
+
+## 🌐 Web Performance i SEO
+
+### Core Web Vitals
+
+- **Largest Contentful Paint (LCP)** - < 2.5s
+- **First Input Delay (FID)** - < 100ms
+- **Cumulative Layout Shift (CLS)** - < 0.1
+- **First Contentful Paint (FCP)** - < 1.8s
+
+### SEO Best Practices
+
+- **Semantic Markup** - Schema.org, Open Graph, meta tags
+- **URL Structure** - czyste, opisowe URLs
+- **Sitemap & Robots** - automatycznie generowane
+- **Internal Linking** - logiczna struktura linków
+- **Page Speed** - optymalizacja dla Core Web Vitals
+
+### Performance Optimization
+
+- **Resource Optimization** - kompresja obrazów, minifikacja
+- **Critical Resource Hints** - preload, prefetch, preconnect
+- **Caching Strategy** - HTTP cache, service workers
+- **Bundle Optimization** - tree shaking, code splitting
+- **Runtime Performance** - optymalizacja renderowania
 
 ---
 
