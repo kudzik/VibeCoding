@@ -1,4 +1,71 @@
-/Kursy/AI Powered Data Analytics Mastery - AI Tools & Vibe Coding/Transkrypcja
-/Kursy/AI Powered Data Analytics Mastery - AI Tools & Vibe Coding/Zasoby
-/Kursy/Vibe Coding AI-Driven Software Development and Testing/Transkrypcja
-/Kursy/Vibe Coding from Scratch Learn to Code Using AI/Transkrypcja
+# 🔒 Pliki systemowe i tymczasowe
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*.log
+*.cache
+
+# 🔑 Dane wrażliwe
+.env
+.env.local
+.env.production
+*.key
+*.pem
+config/secrets.json
+credentials.json
+
+# 📁 Katalogi zależności
+node_modules/
+venv/
+env/
+__pycache__/
+.pytest_cache/
+.coverage
+*.egg-info/
+
+# 🛠️ IDE i edytory
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 📱 React Native / Mobile
+ios/build/
+android/build/
+android/app/build/
+*.apk
+*.ipa
+
+# 🌐 Web / Frontend
+dist/
+build/
+.next/
+.nuxt/
+coverage/
+
+# 🐍 Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.Python
+pip-log.txt
+
+# ☕ Java
+*.class
+*.jar
+target/
+
+# 📊 Logi i raporty
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🔄 Backup i tymczasowe
+*.bak
+*.backup
+*.orig
