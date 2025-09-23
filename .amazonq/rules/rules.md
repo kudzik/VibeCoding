@@ -13,35 +13,70 @@
 - **Wymagania wydajnościowe** - krytyczne aplikacje: natywne rozwiązania, prototypy: szybkie narzędzia
 - **Długoterminowe wsparcie** - sprawdź aktywność społeczności i roadmapę
 - **Ekosystem i integracje** - dostępność bibliotek, pluginów, narzędzi
+- **Preferencja Open Source** - priorytet dla rozwiązań bezpłatnych i otwartych
+
+### 🆓 Hierarchia wyboru rozwiązań
+
+**Kolejność preferencji:**
+1. **Open Source (bezpłatne)** - pierwsza opcja dla wszystkich potrzeb
+2. **Freemium z dobrym free tier** - gdy open source nie wystarcza
+3. **Płatne rozwiązania** - tylko gdy brak dobrej bezpłatnej alternatywy
+
+**Kryteria oceny open source:**
+- Aktywna społeczność (commits, issues, contributors)
+- Regularne wydania i długoterminowe wsparcie
+- Dobra dokumentacja i przykłady
+- Kompatybilność z ekosystemem
+- Bezpieczeństwo i audyty kodu
 
 ### Rekomendacje według typu projektu
 
 **Web Frontend:**
-- Małe/średnie SPA: React, Vue.js, Svelte
-- Duże aplikacje enterprise: Angular, Next.js
-- Statyczne strony: Astro, Gatsby, Hugo
-- Prototypy: Vite + vanilla JS/TS
+- 🆓 Małe/średnie SPA: React, Vue.js, Svelte
+- 🆓 Duże aplikacje: Angular, Next.js
+- 🆓 Statyczne strony: Astro, Gatsby, Hugo
+- 🆓 Prototypy: Vite + vanilla JS/TS
+- 🆓 UI Components: Headless UI, Radix UI, Mantine
+- 💰 Premium: Ant Design Pro (jeśli potrzeba enterprise)
 
 **Backend/API:**
-- Szybkie prototypy: Express.js, FastAPI, Flask
-- Skalowalne aplikacje: NestJS, Django, Spring Boot
-- Mikrousługi: Fastify, Koa, Gin
-- Serverless: Vercel Functions, AWS Lambda
+- 🆓 Node.js: Express.js, Fastify, NestJS
+- 🆓 Python: FastAPI, Flask, Django
+- 🆓 Java: Spring Boot
+- 🆓 Go: Gin, Echo, Fiber
+- 🆓 Rust: Actix, Axum
+- 🆓 Serverless: Vercel Functions, Netlify Functions
+- 💰 AWS Lambda (pay-per-use)
 
 **Mobile:**
-- Cross-platform: React Native, Flutter
-- Natywne: Swift/Kotlin
-- Hybrydowe: Ionic, Capacitor
+- 🆓 Cross-platform: React Native, Flutter, Ionic
+- 🆓 Natywne: Android Studio, Xcode
+- 💰 Expo (managed workflow - płatne dla większych zespołów)
 
 **Desktop:**
-- Cross-platform: Electron, Tauri, Flutter Desktop
-- Natywne: .NET, Qt, JavaFX
+- 🆓 Cross-platform: Electron, Tauri, Flutter Desktop
+- 🆓 Natywne: .NET (Community), Qt (Open Source)
+- 💰 Qt Commercial (dla komercyjnych projektów)
 
 **Bazy danych:**
-- Relacyjne: PostgreSQL, MySQL
-- NoSQL: MongoDB, Redis
-- Embedded: SQLite, LevelDB
-- Cloud: Supabase, Firebase, PlanetScale
+- 🆓 Relacyjne: PostgreSQL, MySQL, SQLite
+- 🆓 NoSQL: MongoDB Community, Redis
+- 🆓 Cloud: Supabase, PlanetScale (free tier)
+- 💰 Firebase (pay-as-you-grow)
+- 💰 MongoDB Atlas, Redis Cloud (po przekroczeniu limitów)
+
+**Narzędzia deweloperskie:**
+- 🆓 IDE: VS Code, IntelliJ Community
+- 🆓 Version Control: Git, GitHub (publiczne repo)
+- 🆓 CI/CD: GitHub Actions, GitLab CI
+- 🆓 Monitoring: Grafana, Prometheus
+- 💰 JetBrains IDEs, GitHub Pro, DataDog (dla zaawansowanych funkcji)
+
+**Hosting i infrastruktura:**
+- 🆓 Static: Netlify, Vercel, GitHub Pages
+- 🆓 Backend: Railway, Render (free tier)
+- 🆓 Containers: Docker, Podman
+- 💰 AWS, Google Cloud, Azure (po przekroczeniu free tier)
 
 ## 📝 Dokumentacja i śledzenie zmian
 
@@ -121,6 +156,13 @@
 - **OWASP Guidelines** - stosuj aktualne standardy bezpieczeństwa
 - **Security Testing** - SAST, DAST, penetration testing
 
+**Narzędzia bezpieczeństwa:**
+- 🆓 SAST: SonarQube Community, CodeQL
+- 🆓 Dependency scanning: npm audit, Snyk (free tier)
+- 🆓 Secrets detection: GitLeaks, TruffleHog
+- 🆓 SSL/TLS: Let's Encrypt
+- 💰 Snyk Pro, Veracode (dla zaawansowanych audytów)
+
 ## ⚡ Wydajność i testowanie
 
 ### Optymalizacja
@@ -148,6 +190,14 @@
 - **Performance Testing** - load, stress, spike testing
 - **Security Testing** - automated security scans
 - **CI/CD Integration** - automatyczne uruchamianie testów
+
+**Frameworki testowe:**
+- 🆓 JavaScript: Jest, Vitest, Cypress, Playwright
+- 🆓 Python: pytest, unittest
+- 🆓 Java: JUnit, TestNG
+- 🆓 .NET: xUnit, NUnit
+- 🆓 Performance: k6, Apache JMeter
+- 💰 BrowserStack, Sauce Labs (dla cross-browser testing)
 
 ## 🔄 Git i wersjonowanie
 
@@ -256,16 +306,44 @@ feat(auth): dodaj logowanie przez Google
 - **Bundle Optimization** - tree shaking, code splitting
 - **Runtime Performance** - optymalizacja renderowania
 
+**Narzędzia performance:**
+- 🆓 Analiza: Lighthouse, WebPageTest, Chrome DevTools
+- 🆓 Bundlers: Vite, Webpack, Rollup
+- 🆓 Kompresja obrazów: Sharp, ImageOptim
+- 🆓 CDN: Cloudflare (free tier), jsDelivr
+- 💰 Cloudflare Pro, AWS CloudFront (po przekroczeniu limitów)
+
+---
+
+## 💡 Zasady wyboru rozwiązań
+
+### Proces decyzyjny
+
+1. **Sprawdź open source** - czy istnieje dojrzałe rozwiązanie?
+2. **Oceń free tier** - czy freemium pokrywa potrzeby?
+3. **Porównaj koszty** - długoterminowe vs jednorazowe
+4. **Sprawdź vendor lock-in** - łatwość migracji
+5. **Oceń wsparcie społeczności** - dokumentacja, tutoriale
+
+### Red flags dla płatnych rozwiązań
+
+- Brak przejrzystego cennika
+- Wymuszanie długoterminowych kontraktów
+- Brak możliwości eksportu danych
+- Słabe API lub integracje
+- Mała społeczność użytkowników
+
 ---
 
 ## 🚀 Workflow
 
 1. **Analiza zadania** - zrozum wymagania
-2. **Planowanie** - określ strukturę i podejście
-3. **Implementacja** - pisz kod zgodnie z zasadami
-4. **Dokumentacja** - aktualizuj pliki dokumentacyjne
-5. **Timeline** - dodaj wpis do Timeline.log
-6. **Commit** - zaproponuj message zgodny z Conventional Commits
+2. **Wybór technologii** - priorytet dla open source
+3. **Planowanie** - określ strukturę i podejście
+4. **Implementacja** - pisz kod zgodnie z zasadami
+5. **Dokumentacja** - aktualizuj pliki dokumentacyjne
+6. **Timeline** - dodaj wpis do Timeline.log
+7. **Commit** - zaproponuj message zgodny z Conventional Commits
 
 ---
 
