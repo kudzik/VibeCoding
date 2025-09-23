@@ -107,6 +107,29 @@
 - W `FEATURES.md` dokumentuj nowe funkcje z opisem celu i sposobu użycia
 - Dla API dołączaj specyfikację endpointów
 
+### Dokumentacja projektowa (katalog docs/)
+
+**Wymagane pliki dla każdego projektu:**
+
+- `README.md` - główny opis projektu z instrukcjami
+- `LICENSE` - informacja o licencji (preferuj MIT)
+- `CONTRIBUTING.md` - zasady współpracy i proces PR
+- `CODE_OF_CONDUCT.md` - reguły zachowania w społeczności
+- `SECURITY.md` - sposób zgłaszania luk bezpieczeństwa
+- `CHANGELOG.md` - lista zmian zgodnie z Keep a Changelog
+- `ISSUE_TEMPLATE.md` - szablon zgłoszeń błędów
+- `BUGS.md` - śledzenie znanych problemów z checkboxami statusu
+
+**Dokumenty dla większych projektów:**
+
+- `PRD.md` - wymagania produktowe (Product Requirements Document)
+- `ARCHITECTURE.md` - opis architektury systemu
+- `DEPLOYMENT.md` - instrukcje wdrożenia i konfiguracji
+- `TESTS.md` - dokumentacja testów i strategii QA
+- `MVP.md` - definicja minimalnego produktu
+- `ROADMAP.md` - plan rozwoju i przyszłe funkcjonalności
+- `ACCESSIBILITY.md` - informacje o dostępności (WCAG compliance)
+
 ## 💻 Styl i struktura kodu
 
 ### Formatowanie
@@ -256,6 +279,14 @@ feat(auth): dodaj logowanie przez Google
 - **Dokumentuj decyzje architektoniczne** - ADR (Architecture Decision Records)
 - **Taguj wersje** - każda wersja powinna mieć tag w Git
 
+### Bug Tracking
+
+- **Aktualizuj BUGS.md** - śledź znane problemy z checkboxami statusu
+- **Kategoryzuj błędy** - Krytyczne 🔴, Wysokie 🟠, Średnie 🟡, Niskie 🟢
+- **GitHub Integration** - Nierozwiązane błędy przenoś na GitHub jako Issues
+- **Status tracking** - [ ] Otwarte → [ ] W trakcie → [ ] Testowanie → [x] Zamknięte
+- **Workflow** - Zgłoszenie → Triage → GitHub Issue → Fix → Test → Close
+
 ## 🎯 Dodatkowe zasady
 
 ### Clean Code
@@ -352,10 +383,11 @@ feat(auth): dodaj logowanie przez Google
 1. **Analiza zadania** - zrozum wymagania
 2. **Wybór technologii** - priorytet dla open source
 3. **Planowanie** - określ strukturę i podejście
-4. **Implementacja** - pisz kod zgodnie z zasadami
-5. **Dokumentacja** - aktualizuj pliki dokumentacyjne
-6. **Timeline** - dodaj wpis do Timeline.log
-7. **Commit** - zaproponuj message zgodny z Conventional Commits
+4. **Setup dokumentacji** - utwórz wymagane pliki w docs/
+5. **Implementacja** - pisz kod zgodnie z zasadami
+6. **Dokumentacja** - aktualizuj pliki dokumentacyjne
+7. **Timeline** - dodaj wpis do Timeline.log
+8. **Commit** - zaproponuj message zgodny z Conventional Commits
 
 ---
 
