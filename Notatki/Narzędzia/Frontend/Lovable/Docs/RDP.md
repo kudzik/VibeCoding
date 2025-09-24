@@ -76,21 +76,21 @@ Jednoplanszowy menedżer zadań w stylu Kanban z czystym, nowoczesnym interfejse
 
 ### Tabela kolumn
 
-| Pole         | Typ        | Uwagi                     |
-|--------------|------------|---------------------------|
-| `id`         | UUID       | Klucz główny              |
-| `title`      | Text       | Nazwa kolumny             |
-| `order`      | Integer    | Pozycja na tablicy        |
-| `created_at` | Timestamp  | Generowane automatycznie  |
+| Pole         | Typ       | Uwagi                    |
+| ------------ | --------- | ------------------------ |
+| `id`         | UUID      | Klucz główny             |
+| `title`      | Text      | Nazwa kolumny            |
+| `order`      | Integer   | Pozycja na tablicy       |
+| `created_at` | Timestamp | Generowane automatycznie |
 
 ### Tabela kart
 
-| Pole         | Typ        | Uwagi                             |
-|--------------|------------|-----------------------------------|
-| `id`         | UUID       | Klucz główny                      |
-| `column_id`  | UUID       | Klucz obcy do `columns.id`        |
-| `title`      | Text       | Tytuł karty                       |
-| `order`      | Integer    | Pozycja w kolumnie                |
-| `created_at` | Timestamp  | Generowane automatycznie          |
+| Pole         | Typ       | Uwagi                      |
+| ------------ | --------- | -------------------------- |
+| `id`         | UUID      | Klucz główny               |
+| `column_id`  | UUID      | Klucz obcy do `columns.id` |
+| `title`      | Text      | Tytuł karty                |
+| `order`      | Integer   | Pozycja w kolumnie         |
+| `created_at` | Timestamp | Generowane automatycznie   |
 
 ---

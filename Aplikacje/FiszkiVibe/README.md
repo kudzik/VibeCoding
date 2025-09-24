@@ -110,7 +110,7 @@ Aby dodać własne fiszki do aplikacji, edytuj plik `src/data/flashcards.ts`:
 // W pliku src/data/flashcards.ts
 export const initialFlashcards: Flashcard[] = [
   // ... istniejące fiszki ...
-  
+
   // Nowa fiszka
   {
     id: '23',
@@ -122,7 +122,7 @@ export const initialFlashcards: Flashcard[] = [
     reviewCount: 0,
     correctCount: 0,
   },
-];
+]
 ```
 
 ### Dodawanie nowej kategorii
@@ -133,7 +133,7 @@ Aby dodać nową kategorię, edytuj plik `src/data/categories.ts`:
 // W pliku src/data/categories.ts
 export const categories: Category[] = [
   // ... istniejące kategorie ...
-  
+
   // Nowa kategoria
   {
     id: 'zwierzeta',
@@ -142,13 +142,13 @@ export const categories: Category[] = [
     color: '#10B981',
     cardCount: 5, // Liczba fiszek w tej kategorii
   },
-];
+]
 ```
 
 ### Dostępne kategorie
 
 - `podstawowe` - Podstawowe słowa i zwroty
-- `kolory` - Nazwy kolorów  
+- `kolory` - Nazwy kolorów
 - `liczby` - Liczby od 1 do 10
 - `rodzina` - Członkowie rodziny
 - `miejsca` - Miejsca w mieście

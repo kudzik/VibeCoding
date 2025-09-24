@@ -2,7 +2,8 @@
 
 ## 📖 Przegląd architektury
 
-VibeCoding to framework dokumentacyjny i metodologiczny oparty na zasadach modularności, skalowalności i najlepszych praktyk branżowych. Architektura została zaprojektowana z myślą o elastyczności i łatwości rozszerzania.
+VibeCoding to framework dokumentacyjny i metodologiczny oparty na zasadach modularności,
+skalowalności i najlepszych praktyk branżowych. Architektura została zaprojektowana z myślą o elastyczności i łatwości rozszerzania.
 
 ## 🎯 Zasady architektoniczne
 

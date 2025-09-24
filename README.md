@@ -2,7 +2,7 @@
 
 [Notebooklm](https://notebooklm.google.com/notebook/3985722f-c201-4c4b-bf4f-54b5f6803fae)
 
-***
+---
 
 ## Notatka: Vibecoding – nowy paradygmat tworzenia oprogramowania
 
@@ -13,7 +13,7 @@ Vibecoding to rewolucyjne podejście do tworzenia oprogramowania, gdzie nie pisz
 
 - Tworzeniu oprogramowania za pomocą konwersacji z AI w języku naturalnym.
 - Projektowaniu doświadczenia, przekazywaniu zamiarów i oczekiwań AI zamiast manualnego pisania kodu.
-- Pracy iteracyjnej: AI generuje kod → Ty testujesz, oceniasz → AI wprowadza poprawki i nowe funkcje.  
+- Pracy iteracyjnej: AI generuje kod → Ty testujesz, oceniasz → AI wprowadza poprawki i nowe funkcje.
 - Szybkim prototypowaniu, eksperymentowaniu i minimalizowaniu barier technicznych – nie musisz być programistą, by korzystać z vibecoding, choć znajomość kodu jest dodatkową zaletą.[1]
 
 **Vibecoding w praktyce:**  
@@ -22,22 +22,22 @@ To proces, w którym wyrażasz pomysł, opisujesz szczegóły funkcjonalności, 
 **Dlaczego „vibe”?**  
 Bo prompt (polecenie) dla AI przekazuje nie tylko logikę, ale także atmosferę, styl i uczucia, które chcesz, by projekt odzwierciedlał. Przykładowe prompty zawierają sformułowania o „nowoczesnym, minimalistycznym wyglądzie”, „płynności interfejsu” czy „estetycznym doświadczeniu użytkownika”.[10][1]
 
-***
+---
 
 ## Słownik kluczowych pojęć
 
-| Polski | Angielski | Wyjaśnienie |
-|--------|-----------|-------------|
-| Vibecoding           | Vibe coding         | Tworzenie kodu za pomocą poleceń dla AI w języku naturalnym[1]. |
-| Prompt               | Prompt              | Wytyczne/zadania dla AI, określające efekt końcowy[5]. |
-| Iteracja             | Iteration           | Powtarzany cykl poprawiania kodu na podstawie feedbacku[1]. |
-| Agent sprawczy       | Agentic agent       | AI, która samodzielnie podejmuje działania i tworzy aplikacje[1]. |
-| Low-code/No-code     | Low-code/No-code    | Tworzenie aplikacji bez kodowania, przez składanie bloków; w vibecoding ograniczenia są mniejsze[5]. |
-| Konwersacyjne kodowanie | Conversational coding | Tworzenie oprogramowania przez rozmowę z AI[5][1]. |
-| Dyrygent kodu        | Code conductor      | Nowa rola: osoba projektująca całość i dająca wytyczne AI[1]. |
-| MVP                  | Minimum Viable Product | Minimalny działający produkt; częsta domena vibecoding[4]. |
+| Polski                  | Angielski              | Wyjaśnienie                                                                                          |
+| ----------------------- | ---------------------- | ---------------------------------------------------------------------------------------------------- |
+| Vibecoding              | Vibe coding            | Tworzenie kodu za pomocą poleceń dla AI w języku naturalnym[1].                                      |
+| Prompt                  | Prompt                 | Wytyczne/zadania dla AI, określające efekt końcowy[5].                                               |
+| Iteracja                | Iteration              | Powtarzany cykl poprawiania kodu na podstawie feedbacku[1].                                          |
+| Agent sprawczy          | Agentic agent          | AI, która samodzielnie podejmuje działania i tworzy aplikacje[1].                                    |
+| Low-code/No-code        | Low-code/No-code       | Tworzenie aplikacji bez kodowania, przez składanie bloków; w vibecoding ograniczenia są mniejsze[5]. |
+| Konwersacyjne kodowanie | Conversational coding  | Tworzenie oprogramowania przez rozmowę z AI[5][1].                                                   |
+| Dyrygent kodu           | Code conductor         | Nowa rola: osoba projektująca całość i dająca wytyczne AI[1].                                        |
+| MVP                     | Minimum Viable Product | Minimalny działający produkt; częsta domena vibecoding[4].                                           |
 
-***
+---
 
 ## Schemat dobrej praktyki vibecoding
 
@@ -47,7 +47,7 @@ Bo prompt (polecenie) dla AI przekazuje nie tylko logikę, ale także atmosferę
 4. **Iteracja:** Wskazujesz poprawki, AI je wprowadza.
 5. **Weryfikacja:** Sprawdzasz bezpieczeństwo, efektywność, dopasowanie do wizji.
 
-***
+---
 
 ## Przykładowe prompty (PL/EN)
 
@@ -60,7 +60,7 @@ Bo prompt (polecenie) dla AI przekazuje nie tylko logikę, ale także atmosferę
 - „Dodaj wyjaśnienia krok po kroku dla kodu, który wygenerujesz.”  
   ["Add step-by-step explanations for the code you generate."](11)
 
-***
+---
 
 ## Ważne informacje i uwagi
 

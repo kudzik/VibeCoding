@@ -2,7 +2,10 @@
 
 ## 🎯 Nasze zobowiązanie
 
-W interesie wspierania otwartego i przyjaznego środowiska, my jako kontrybutorzy i maintainerzy zobowiązujemy się do tego, aby uczestnictwo w naszym projekcie i społeczności było wolne od nękania dla wszystkich, niezależnie od wieku, budowy ciała, niepełnosprawności, pochodzenia etnicznego, tożsamości i ekspresji płciowej, poziomu doświadczenia, narodowości, wyglądu osobistego, rasy, religii lub tożsamości i orientacji seksualnej.
+W interesie wspierania otwartego i przyjaznego środowiska, my jako kontrybutorzy i maintainerzy zobowiązujemy się do
+tego, aby uczestnictwo w naszym projekcie i społeczności było wolne od nękania dla wszystkich, niezależnie od wieku,
+budowy ciała, niepełnosprawności, pochodzenia etnicznego, tożsamości i ekspresji płciowej, poziomu doświadczenia,
+narodowości, wyglądu osobistego, rasy, religii lub tożsamości i orientacji seksualnej.
 
 ## 📏 Nasze standardy
 
@@ -27,17 +30,27 @@ W interesie wspierania otwartego i przyjaznego środowiska, my jako kontrybutorz
 
 ## 🛡️ Nasze obowiązki
 
-Maintainerzy projektu są odpowiedzialni za wyjaśnianie standardów akceptowalnego zachowania i oczekuje się od nich podejmowania odpowiednich i sprawiedliwych działań naprawczych w odpowiedzi na wszelkie przypadki nieakceptowalnego zachowania.
+Maintainerzy projektu są odpowiedzialni za wyjaśnianie standardów akceptowalnego zachowania i oczekuje się od nich
+podejmowania odpowiednich i sprawiedliwych działań naprawczych w odpowiedzi na wszelkie przypadki nieakceptowalnego
+zachowania.
 
-Maintainerzy projektu mają prawo i obowiązek usuwania, edytowania lub odrzucania komentarzy, commitów, kodu, edycji wiki, issues i innych wkładów, które nie są zgodne z tym Kodeksem Postępowania, lub tymczasowego lub stałego banowania każdego kontrybutora za inne zachowania, które uznają za nieodpowiednie, groźne, obraźliwe lub szkodliwe.
+Maintainerzy projektu mają prawo i obowiązek usuwania, edytowania lub odrzucania komentarzy, commitów, kodu, edycji
+wiki, issues i innych wkładów, które nie są zgodne z tym Kodeksem Postępowania, lub tymczasowego lub stałego banowania
+każdego kontrybutora za inne zachowania, które uznają za nieodpowiednie, groźne, obraźliwe lub szkodliwe.
 
 ## 🌍 Zakres
 
-Ten Kodeks Postępowania obowiązuje zarówno w przestrzeniach projektu, jak i w przestrzeniach publicznych, gdy osoba reprezentuje projekt lub jego społeczność. Przykłady reprezentowania projektu lub społeczności obejmują używanie oficjalnego adresu e-mail projektu, publikowanie za pośrednictwem oficjalnego konta w mediach społecznościowych lub działanie jako wyznaczony przedstawiciel na wydarzeniu online lub offline.
+Ten Kodeks Postępowania obowiązuje zarówno w przestrzeniach projektu, jak i w przestrzeniach publicznych, gdy osoba
+reprezentuje projekt lub jego społeczność. Przykłady reprezentowania projektu lub społeczności obejmują używanie
+oficjalnego adresu e-mail projektu, publikowanie za pośrednictwem oficjalnego konta w mediach społecznościowych lub
+działanie jako wyznaczony przedstawiciel na wydarzeniu online lub offline.
 
 ## 🚨 Egzekwowanie
 
-Przypadki obraźliwego, nękającego lub w inny sposób nieakceptowalnego zachowania można zgłaszać, kontaktując się z zespołem projektu pod adresem [conduct@vibecoding.dev](mailto:conduct@vibecoding.dev). Wszystkie skargi będą rozpatrywane i badane oraz skutkują odpowiedzią, która zostanie uznana za konieczną i odpowiednią do okoliczności. Zespół projektu jest zobowiązany do zachowania poufności w odniesieniu do osoby zgłaszającej incydent.
+Przypadki obraźliwego, nękającego lub w inny sposób nieakceptowalnego zachowania można zgłaszać, kontaktując się z
+zespołem projektu pod adresem [conduct@vibecoding.dev](mailto:conduct@vibecoding.dev). Wszystkie skargi będą
+rozpatrywane i badane oraz skutkują odpowiedzią, która zostanie uznana za konieczną i odpowiednią do okoliczności.
+Zespół projektu jest zobowiązany do zachowania poufności w odniesieniu do osoby zgłaszającej incydent.
 
 ### Proces rozpatrywania
 

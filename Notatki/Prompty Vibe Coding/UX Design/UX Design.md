@@ -1,10 +1,10 @@
-# Prompt AI do projektowania UX zgodnego z najlepszymi zasadami:
+# Prompt AI do projektowania UX zgodnego z najlepszymi zasadami
 
 Przy projektowaniu tego interfejsu użytkownika stosuj się do najlepszych praktyk UX w 2025 roku, uwzględniając zasady takie jak prostota, spójność, dostępność, szybka reakcja na interakcję użytkownika, responsywność na różnych urządzeniach, jasna informacja zwrotna, czytelna i hierarchiczna typografia, łatwa nawigacja i minimalizm wizualny. Projektuj w taki sposób, aby użytkownik szybko i intuicyjnie osiągał swoje cele, a doświadczenie korzystania z aplikacji było przyjemne, płynne i dostępne dla osób z różnymi potrzebami.
 
-***
+---
 
-## Kluczowe zasady UX design:
+## Kluczowe zasady UX design
 
 - **Prostota (Simplicity)** – minimalizuj niepotrzebne elementy, skup się na tym, co naprawdę ważne dla użytkownika.
 - **Spójność (Consistency)** – zapewnij jednolity styl i zachowanie elementów w całym interfejsie, by użytkownik szybko się orientował.

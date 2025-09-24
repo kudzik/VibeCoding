@@ -29,13 +29,13 @@ Stworzenie przeglądarkowej gry 2D typu **Space Shooter**, w której gracz steru
 
 ## 3️⃣ Technologie
 
-| Komponent | Technologia |
-|----------|-------------|
-| Rendering | [Three.js](https://threejs.org/) |
-| Logika gry | JavaScript (ES6+) |
-| UI | HTML5 + CSS3 |
-| Uruchamianie | Lokalnie przez `index.html` |
-| Dev Server | `python3 -m http.server` lub Live Server |
+| Komponent    | Technologia                              |
+| ------------ | ---------------------------------------- |
+| Rendering    | [Three.js](https://threejs.org/)         |
+| Logika gry   | JavaScript (ES6+)                        |
+| UI           | HTML5 + CSS3                             |
+| Uruchamianie | Lokalnie przez `index.html`              |
+| Dev Server   | `python3 -m http.server` lub Live Server |
 
 ---
 
@@ -69,22 +69,22 @@ Stworzenie przeglądarkowej gry 2D typu **Space Shooter**, w której gracz steru
 ## 6️⃣ Parametry gry (konfigurowalne)
 
 ```js
-this.playerSpeed = 0.1;
-this.bulletSpeed = 0.8;
-this.enemySpeed = 0.02;
-this.enemySpawnRate = 2000; // ms
-this.shotCooldown = 200;    // ms
+this.playerSpeed = 0.1
+this.bulletSpeed = 0.8
+this.enemySpeed = 0.02
+this.enemySpawnRate = 2000 // ms
+this.shotCooldown = 200 // ms
 ```
 
 ---
 
 ## 7️⃣ UI i sterowanie
 
-| Klawisz | Funkcja |
-|--------|---------|
-| WASD / Strzałki | Ruch statku |
-| SPACJA | Strzał |
-| ESC | Pauza / Wznowienie |
+| Klawisz         | Funkcja            |
+| --------------- | ------------------ |
+| WASD / Strzałki | Ruch statku        |
+| SPACJA          | Strzał             |
+| ESC             | Pauza / Wznowienie |
 
 ---
 
@@ -104,4 +104,3 @@ this.shotCooldown = 200;    // ms
 - Przeglądarka z obsługą WebGL (Chrome, Firefox, Edge)
 - Brak backendu – działa lokalnie
 - Opcjonalnie: serwer lokalny (`Live Server`, `http.server`)
-

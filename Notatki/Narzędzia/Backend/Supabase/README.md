@@ -13,7 +13,7 @@
 - **Integracja z narzędziami AI (MCP Server)** – możliwość podpięcia narzędzi AI do zarządzania bazą danych i automatyzacji workflow (np. poprzez Cursor, Claude).[3]
 - **Branching, migracje, edytor SQL, bezpieczeństwo API keys** – zaawansowane opcje zarządzania cyklem życia aplikacji oraz bezpieczeństwem.
 
-***
+---
 
 ## Zastosowania
 
@@ -22,7 +22,7 @@
 - Zautomatyzowane workflows, integracje z AI, narzędziami chmurowymi i backendami.
 - Projekty oparte na skalowalnej, bezpiecznej infrastrukturze, gotowe do profesjonalnych wdrożeń.
 
-***
+---
 
 ## Słownik pojęć
 
@@ -35,7 +35,7 @@
 - **MCP Server** – integracja backendu z narzędziami AI.
 - **Branching/migracje** – zarządzanie zmianami w bazie i projekcie.
 
-***
+---
 
 Chcesz przykład architektury typowej aplikacji z Supabase lub gotowy „prompt startowy” do integracji z front-endem?
 

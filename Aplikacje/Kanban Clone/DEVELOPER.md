@@ -18,11 +18,11 @@ KanbanBoard (główny kontener)
 
 ```typescript
 interface Column {
-  id: string;
-  title: string;
-  order: number;
-  created: string;
-  updated: string;
+  id: string
+  title: string
+  order: number
+  created: string
+  updated: string
 }
 ```
 
@@ -30,12 +30,12 @@ interface Column {
 
 ```typescript
 interface Card {
-  id: string;
-  title: string;
-  column: string; // ID kolumny
-  order: number;
-  created: string;
-  updated: string;
+  id: string
+  title: string
+  column: string // ID kolumny
+  order: number
+  created: string
+  updated: string
 }
 ```
 
@@ -120,7 +120,7 @@ pb_data/                  # Dane PocketBase (ignorowane w git)
 
 ```typescript
 // Konfiguracja
-const pb = new PocketBase('http://127.0.0.1:8090');
+const pb = new PocketBase('http://127.0.0.1:8090')
 
 // Metody API
 export const pocketbaseService = {
@@ -129,13 +129,13 @@ export const pocketbaseService = {
   createColumn: (data) => pb.collection('columns').create(data),
   updateColumn: (id, data) => pb.collection('columns').update(id, data),
   deleteColumn: (id) => pb.collection('columns').delete(id),
-  
+
   // Karty
   getCards: () => pb.collection('cards').getFullList(),
   createCard: (data) => pb.collection('cards').create(data),
   updateCard: (id, data) => pb.collection('cards').update(id, data),
   deleteCard: (id) => pb.collection('cards').delete(id),
-};
+}
 ```
 
 ### Kolekcje PocketBase
@@ -204,12 +204,12 @@ module.exports = {
 ```typescript
 // Przykład testu
 test('should create new column', async ({ page }) => {
-  await page.goto('/');
-  await page.click('button:has-text("Dodaj listę")');
-  await page.fill('input[placeholder="Wprowadź tytuł listy..."]', 'Test Column');
-  await page.click('button:has-text("Dodaj listę")');
-  await expect(page.locator('h2:has-text("Test Column")')).toBeVisible();
-});
+  await page.goto('/')
+  await page.click('button:has-text("Dodaj listę")')
+  await page.fill('input[placeholder="Wprowadź tytuł listy..."]', 'Test Column')
+  await page.click('button:has-text("Dodaj listę")')
+  await expect(page.locator('h2:has-text("Test Column")')).toBeVisible()
+})
 ```
 
 ### Uruchamianie testów
@@ -248,7 +248,7 @@ export default defineConfig({
     { name: 'firefox', use: { ...devices['Desktop Firefox'] } },
     { name: 'webkit', use: { ...devices['Desktop Safari'] } },
   ],
-});
+})
 ```
 
 ## 🔄 Drag & Drop
@@ -257,17 +257,17 @@ export default defineConfig({
 
 ```typescript
 // KanbanBoard.tsx
-import { DndContext, DragEndEvent } from '@dnd-kit/core';
-import { SortableContext, verticalListSortingStrategy } from '@dnd-kit/sortable';
+import { DndContext, DragEndEvent } from '@dnd-kit/core'
+import { SortableContext, verticalListSortingStrategy } from '@dnd-kit/sortable'
 
 const handleDragEnd = (event: DragEndEvent) => {
-  const { active, over } = event;
-  
+  const { active, over } = event
+
   if (over && active.id !== over.id) {
     // Logika aktualizacji kolejności
-    updateOrder(active.id, over.id);
+    updateOrder(active.id, over.id)
   }
-};
+}
 ```
 
 ### Obsługiwane operacje
@@ -325,8 +325,8 @@ vercel --prod
 
 ```typescript
 // Przykład logowania
-console.log('Column created:', newColumn);
-console.error('API Error:', error);
+console.log('Column created:', newColumn)
+console.error('API Error:', error)
 ```
 
 ### Typowe problemy
@@ -382,7 +382,7 @@ VITE_APP_ENV=development
 // Przykład error boundary
 class ErrorBoundary extends React.Component {
   componentDidCatch(error, errorInfo) {
-    console.error('Error caught:', error, errorInfo);
+    console.error('Error caught:', error, errorInfo)
     // Wysłanie do serwisu monitoringu
   }
 }
@@ -392,13 +392,13 @@ class ErrorBoundary extends React.Component {
 
 ```typescript
 // Web Vitals
-import { getCLS, getFID, getFCP, getLCP, getTTFB } from 'web-vitals';
+import { getCLS, getFID, getFCP, getLCP, getTTFB } from 'web-vitals'
 
-getCLS(console.log);
-getFID(console.log);
-getFCP(console.log);
-getLCP(console.log);
-getTTFB(console.log);
+getCLS(console.log)
+getFID(console.log)
+getFCP(console.log)
+getLCP(console.log)
+getTTFB(console.log)
 ```
 
 ## 🤝 Contributing
@@ -423,16 +423,19 @@ getTTFB(console.log);
 
 ```markdown
 ## Opis zmian
+
 - [ ] Dodano nową funkcjonalność
 - [ ] Naprawiono błąd
 - [ ] Zaktualizowano dokumentację
 
 ## Testy
+
 - [ ] Testy jednostkowe
 - [ ] Testy E2E
 - [ ] Testy manualne
 
 ## Checklist
+
 - [ ] Kod jest zgodny ze stylem
 - [ ] Dokumentacja została zaktualizowana
 - [ ] Testy przechodzą

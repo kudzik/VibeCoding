@@ -149,7 +149,7 @@ Oferujemy symboliczne nagrody za odpowiedzialne ujawnianie luk:
 
 ## 📞 Kontakt
 
-- **Email bezpieczeństwa**: security@vibecoding.dev
+- **Email bezpieczeństwa**: <security@vibecoding.dev>
 - **PGP Key**: Dostępny na żądanie
 - **Response Time**: 24 godziny (dni robocze)
 

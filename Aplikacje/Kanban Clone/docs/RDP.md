@@ -18,13 +18,13 @@ Jednoplanszowy menedżer zadań w stylu Kanban z czystym, nowoczesnym interfejse
 
 ## Stos technologiczny
 
-| Warstwa        | Technologia           | Uwagi |
-|----------------|------------------------|-------|
-| Frontend       | Vite + React + TypeScript | Szybki bundler, nowoczesny DX |
-| Drag & Drop    | dnd-kit                | Modularny, lekki |
-| Stylowanie     | Tailwind CSS           | Utility-first, szybki styling |
-| Backend        | PocketBase             | Darmowy backend z REST API i lokalną bazą SQLite |
-| Hosting        | Netlify / GitHub Pages | Darmowe opcje dla SPA |
+| Warstwa     | Technologia               | Uwagi                                            |
+| ----------- | ------------------------- | ------------------------------------------------ |
+| Frontend    | Vite + React + TypeScript | Szybki bundler, nowoczesny DX                    |
+| Drag & Drop | dnd-kit                   | Modularny, lekki                                 |
+| Stylowanie  | Tailwind CSS              | Utility-first, szybki styling                    |
+| Backend     | PocketBase                | Darmowy backend z REST API i lokalną bazą SQLite |
+| Hosting     | Netlify / GitHub Pages    | Darmowe opcje dla SPA                            |
 
 ---
 
@@ -78,21 +78,21 @@ Jednoplanszowy menedżer zadań w stylu Kanban z czystym, nowoczesnym interfejse
 
 ### Kolekcja: columns
 
-| Pole         | Typ        | Uwagi                     |
-|--------------|------------|---------------------------|
-| `id`         | string     | Generowane automatycznie |
-| `title`      | string     | Nazwa kolumny             |
-| `order`      | number     | Pozycja na tablicy        |
-| `created`    | datetime   | Data utworzenia           |
+| Pole      | Typ      | Uwagi                    |
+| --------- | -------- | ------------------------ |
+| `id`      | string   | Generowane automatycznie |
+| `title`   | string   | Nazwa kolumny            |
+| `order`   | number   | Pozycja na tablicy       |
+| `created` | datetime | Data utworzenia          |
 
 ### Kolekcja: cards
 
-| Pole         | Typ        | Uwagi                             |
-|--------------|------------|-----------------------------------|
-| `id`         | string     | Generowane automatycznie          |
-| `column`     | relation   | Relacja do `columns`              |
-| `title`      | string     | Tytuł karty                       |
-| `order`      | number     | Pozycja w kolumnie                |
-| `created`    | datetime   | Data utworzenia                   |
+| Pole      | Typ      | Uwagi                    |
+| --------- | -------- | ------------------------ |
+| `id`      | string   | Generowane automatycznie |
+| `column`  | relation | Relacja do `columns`     |
+| `title`   | string   | Tytuł karty              |
+| `order`   | number   | Pozycja w kolumnie       |
+| `created` | datetime | Data utworzenia          |
 
 ---

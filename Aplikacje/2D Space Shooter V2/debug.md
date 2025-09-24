@@ -5,23 +5,27 @@
 Otwórz konsolę deweloperską (F12) i użyj następujących komend:
 
 ### Test kolizji
+
 ```javascript
-game.debugCollisions(); // Wyświetla liczbę pocisków i wrogów
+game.debugCollisions() // Wyświetla liczbę pocisków i wrogów
 ```
 
 ### Test limitów ruchu gracza
+
 ```javascript
-game.testPlayerMovement(); // Testuje wszystkie granice ekranu
+game.testPlayerMovement() // Testuje wszystkie granice ekranu
 ```
 
 ### Test cooldownu strzałów
+
 ```javascript
-game.testShotCooldown(); // Testuje opóźnienie między strzałami
+game.testShotCooldown() // Testuje opóźnienie między strzałami
 ```
 
 ### Test restartu gry
+
 ```javascript
-game.gameOver(); // Wywołuje ekran Game Over
+game.gameOver() // Wywołuje ekran Game Over
 // Następnie kliknij "Restart Game"
 ```
 

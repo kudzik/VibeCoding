@@ -6,7 +6,7 @@ Przygotuj kompleksowy plan refaktoryzacji kodu aplikacji //TODO:[nazwa aplikacji
 - Zidentyfikuj duplikaty kodu i zredukuj powtarzające się fragmenty bez zmiany funkcjonalności.
 - Użyj reasoning model do wykrycia nieczytelnych lub złożonych fragmentów kodu i zaproponuj ich uproszczenie.
 - Zastosuj regułę komentowania Cursor – dodaj objaśniające komentarze do każdej funkcji, klasy i istotnego fragmentu logiki.
-- Wprowadź techniki refaktoryzacji takie jak: *Extract Method*, *Inline Method*, *Refactoring by Abstraction*, *Collapsing Hierarchy*.
+- Wprowadź techniki refaktoryzacji takie jak: _Extract Method_, _Inline Method_, _Refactoring by Abstraction_, _Collapsing Hierarchy_.
 - Po każdej zmianie uruchom testy jednostkowe i E2E, aby upewnić się, że aplikacja działa zgodnie z oczekiwaniami.
 - Wprowadź regułę Cursor, która automatycznie uruchamia testy po każdej zmianie w kodzie.
 - Dokumentuj zmiany w commitach jako pojedyncze, logiczne jednostki, aby ułatwić śledzenie i ewentualne cofanie.

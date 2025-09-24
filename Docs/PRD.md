@@ -93,7 +93,7 @@ Stworzenie kompleksowego frameworka zasad i wytycznych, który umożliwi dewelop
    - Code review process
    - Knowledge sharing
 
-#### Success Metrics!
+#### Success Metrics
 
 - 500+ GitHub stars
 - 50+ contributors

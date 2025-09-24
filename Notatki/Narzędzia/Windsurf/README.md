@@ -6,7 +6,7 @@
 
 **Windsurf** to nowoczesne środowisko IDE (Intelligent Development Environment), które wykorzystuje sztuczną inteligencję do wspierania programistów w codziennej pracy. Jego celem jest nie tylko generowanie kodu, ale pełne zrozumienie kontekstu projektu i aktywna współpraca z użytkownikiem.
 
-### 🧠 Kluczowe cechy Windsurf:
+### 🧠 Kluczowe cechy Windsurf
 
 - **Supercomplete**: zaawansowane autouzupełnianie, które przewiduje intencje programisty i generuje wieloliniowe sugestie.
 - **Cascade (AI Flows)**: interaktywne przepływy pracy, gdzie AI proponuje zmiany, pyta o zatwierdzenie i uruchamia kod — aż do osiągnięcia sukcesu.

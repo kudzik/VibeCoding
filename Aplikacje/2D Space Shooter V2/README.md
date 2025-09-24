@@ -92,9 +92,9 @@ npx serve .
 Otwórz konsolę przeglądarki (F12) i użyj:
 
 ```javascript
-game.debugCollisions();     // Info o obiektach
-game.testPlayerMovement();  // Test granic
-game.testShotCooldown();    // Test cooldownu
+game.debugCollisions() // Info o obiektach
+game.testPlayerMovement() // Test granic
+game.testShotCooldown() // Test cooldownu
 ```
 
 ## 🎮 Funkcjonalności
@@ -108,7 +108,7 @@ game.testShotCooldown();    // Test cooldownu
 ✅ Funkcje debugowania i testowania  
 ✅ Tekstury 2D sprite'ów dla wszystkich obiektów  
 ✅ System audio z kontrolą enable/disable  
-✅ Responsywny design z gradientami i animacjami  
+✅ Responsywny design z gradientami i animacjami
 
 ## 🚀 Zrealizowane funkcjonalności
 
@@ -117,7 +117,7 @@ game.testShotCooldown();    // Test cooldownu
 ✅ **Trudność**: Progresywne zwiększanie częstotliwości wrogów  
 ✅ **Power-upy**: Permanentne ulepszenia szybkości strzelania  
 ✅ **UI**: Futurystyczny design z Orbitron i efektami  
-✅ **Gameplay**: Pełna mechanika z restart i Game Over  
+✅ **Gameplay**: Pełna mechanika z restart i Game Over
 
 ## 🔮 Możliwe rozszerzenia
 
@@ -133,12 +133,12 @@ game.testShotCooldown();    // Test cooldownu
 **Wersja**: 1.0 - Pełna funkcjonalność  
 **TODO**: Wszystkie główne zadania zakończone (✅ 100%)  
 **Wdrożenie**: 🌐 [Dostępne online na Netlify](https://68c9492c0ed4cc3e874aa217--fanciful-kashata-b61883.netlify.app/)  
-**Ostatnia aktualizacja**: Dodano high score system i wdrożono na Netlify  
+**Ostatnia aktualizacja**: Dodano high score system i wdrożono na Netlify
 
-### Zakończone sekcje TODO:
+### Zakończone sekcje TODO
 
 - ✅ Struktura projektu
-- ✅ Inicjalizacja Three.js  
+- ✅ Inicjalizacja Three.js
 - ✅ Gracz z teksturami
 - ✅ Strzały z efektami
 - ✅ Wrogowie z teksturami

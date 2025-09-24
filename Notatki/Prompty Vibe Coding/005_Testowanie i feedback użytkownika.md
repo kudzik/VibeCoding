@@ -3,7 +3,7 @@
 **Prompt:**  
 Przygotuj kompleksowy plan iteracyjnego testowania aplikacji, obejmujący testy A/B, beta testy oraz metody zbierania i analizowania feedbacku użytkowników. Dodaj strategie automatyzacji raportowania błędów oraz narzędzia do monitorowania jakości i satysfakcji użytkowników, jeśli jeszcze jakieś testy mają sens dla tej aplikacji to je dodaj.”
 
-***
+---
 
 Jakie testy powinienem dodać do tej aplikacji, aby były zgodne z piramidą testów?
 Napisz testy jednostkowe dla funkcji X w mojej aplikacji.
@@ -21,7 +21,7 @@ Dodaj nową regułę Cursor, aby zawsze uruchamiać testy po zmianach.
 Załaduj przykładowe reguły Cursor dla tej aplikacji
 Jak napisać regułę projektową Cursor ograniczającą stack do Vibecoding?
 
-***
+---
 
 Zawsze po wprowadzeniu nowej funkcjonalności lub zmian w projekcie, automatycznie uruchamiaj testy używając odpowiedniej komendy testowej dla projektu.
 
@@ -35,8 +35,7 @@ Użyj odpowiedniej komendy (np. npm test, npm run test, yarn test, itp.)
 Uruchom linter (npm run lint) jako alternatywę
 Zasugeruj dodanie frameworka testowego (np. Vitest, Jest) jeśli to konieczne
 
-***
-
+---
 
 Testy jednostkowe (Unit Tests):
 
