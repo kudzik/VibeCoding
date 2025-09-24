@@ -136,7 +136,7 @@ Następnie utwórz Pull Request z opisem:
 
 - **Issues** - dla bugów i feature requests
 - **Discussions** - dla pytań i pomysłów
-- **Email** - dla kwestii bezpieczeństwa (security@vibecoding.dev)
+- **Email** - dla kwestii bezpieczeństwa
 
 ## 🎉 Uznanie
 

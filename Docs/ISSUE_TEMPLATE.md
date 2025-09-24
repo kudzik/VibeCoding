@@ -9,9 +9,11 @@
 ## 📝 Opis problemu
 
 ### Krótkie podsumowanie
+
 [Opisz problem w 1-2 zdaniach]
 
 ### Szczegółowy opis
+
 [Dokładny opis tego, co się dzieje]
 
 ## 🔄 Kroki reprodukcji
@@ -41,7 +43,7 @@
 
 [Załącz zrzuty ekranu, logi błędów, lub inne pomocne materiały]
 
-```
+```text
 [Wklej logi błędów tutaj]
 ```
 
@@ -61,12 +63,14 @@
 ## 📝 Dla maintainerów
 
 ### Triage
+
 - [ ] Problem zweryfikowany
 - [ ] Priorytet przypisany
 - [ ] Label dodany
 - [ ] Milestone przypisany (jeśli dotyczy)
 
 ### Rozwiązanie
+
 - [ ] Root cause zidentyfikowany
 - [ ] Fix zaimplementowany
 - [ ] Testy dodane

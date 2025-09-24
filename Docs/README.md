@@ -24,8 +24,8 @@ VibeCoding to kompleksowy framework zasad i wytycznych dla tworzenia oprogramowa
 
 2. **Zapoznaj się z zasadami**
    - Przeczytaj [Rules.md](./Rules.md) - główne zasady rozwoju
-   - Sprawdź [FEATURES.md](../FEATURES.md) - opis funkcjonalności
-   - Zobacz [ROADMAP.md](./ROADMAP.md) - plan rozwoju
+   - Sprawdź [PRD.md](./PRD.md) - wymagania produktowe
+   - Zobacz [ARCHITECTURE.md](./ARCHITECTURE.md) - architektura systemu
 
 3. **Rozpocznij projekt**
    - Wybierz technologie zgodnie z hierarchią preferencji
@@ -35,12 +35,12 @@ VibeCoding to kompleksowy framework zasad i wytycznych dla tworzenia oprogramowa
 ## 📚 Dokumentacja
 
 - [📋 Zasady rozwoju](./Rules.md)
-- [🚀 Funkcjonalności](../FEATURES.md)
+- [📋 Wymagania produktowe](./PRD.md)
 - [🏗️ Architektura](./ARCHITECTURE.md)
-- [🚀 Wdrożenie](./DEPLOYMENT.md)
-- [🧪 Testowanie](./TESTS.md)
-- [🛣️ Roadmapa](./ROADMAP.md)
-- [♿ Dostępność](./ACCESSIBILITY.md)
+- [🤝 Współpraca](./CONTRIBUTING.md)
+- [🔒 Bezpieczeństwo](./SECURITY.md)
+- [🐛 Zgłaszanie błędów](./ISSUE_TEMPLATE.md)
+- [🐛 Znane problemy](./BUGS.md)
 
 ## 🤝 Współpraca
 

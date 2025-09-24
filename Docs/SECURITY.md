@@ -33,13 +33,13 @@ Jeśli znajdziesz lukę bezpieczeństwa w VibeCoding, prosimy o odpowiedzialne j
 
 ### Przykład zgłoszenia
 
-```
 Temat: [SECURITY] SQL Injection w module auth
 
 Opis:
 Znalazłem potencjalną lukę SQL Injection w module uwierzytelniania...
 
 Kroki reprodukcji:
+
 1. Przejdź do /login
 2. Wprowadź payload: admin'; DROP TABLE users; --
 3. Obserwuj błąd bazy danych
@@ -48,10 +48,10 @@ Wpływ:
 Możliwość wykonania dowolnych zapytań SQL, potencjalna utrata danych
 
 Środowisko:
+
 - VibeCoding v1.0.2
 - PostgreSQL 13
 - Node.js 18.x
-```
 
 ## ⏱️ Proces odpowiedzi
 
@@ -66,24 +66,28 @@ Możliwość wykonania dowolnych zapytań SQL, potencjalna utrata danych
 ### Klasyfikacja priorytetów
 
 #### 🔴 Krytyczny
+
 - Zdalne wykonanie kodu (RCE)
 - Pełne przejęcie systemu
 - Masowa utrata danych
 - **SLA**: Naprawa w 24-48 godzin
 
 #### 🟠 Wysoki
+
 - Privilege escalation
 - SQL Injection z dostępem do danych
 - XSS z możliwością przejęcia sesji
 - **SLA**: Naprawa w 7 dni
 
 #### 🟡 Średni
+
 - Information disclosure
 - CSRF z ograniczonym wpływem
 - Denial of Service
 - **SLA**: Naprawa w 30 dni
 
 #### 🟢 Niski
+
 - Problemy konfiguracyjne
 - Słabe hasła domyślne
 - Minor information leakage
@@ -160,4 +164,4 @@ Oferujemy symboliczne nagrody za odpowiedzialne ujawnianie luk:
 
 **Dziękujemy za pomoc w utrzymaniu bezpieczeństwa VibeCoding!**
 
-*Ostatnia aktualizacja: 2024-12-19*
+_Ostatnia aktualizacja: 2024-12-19_

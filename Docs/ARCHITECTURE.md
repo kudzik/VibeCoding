@@ -7,6 +7,7 @@ VibeCoding to framework dokumentacyjny i metodologiczny oparty na zasadach modul
 ## 🎯 Zasady architektoniczne
 
 ### Core Principles
+
 - **Modularność** - Każdy komponent ma jasno określoną odpowiedzialność
 - **Skalowalność** - Architektura wspiera wzrost od MVP do enterprise
 - **Bezpieczeństwo** - Security by design w każdej warstwie
@@ -14,6 +15,7 @@ VibeCoding to framework dokumentacyjny i metodologiczny oparty na zasadach modul
 - **Utrzymywalność** - Kod i dokumentacja łatwe do utrzymania
 
 ### Design Patterns
+
 - **Documentation as Code** - Dokumentacja w repozytorium z kodem
 - **Convention over Configuration** - Sensowne domyślne ustawienia
 - **Separation of Concerns** - Wyraźne granice między komponentami
@@ -21,7 +23,7 @@ VibeCoding to framework dokumentacyjny i metodologiczny oparty na zasadach modul
 
 ## 🏛️ Struktura wysokiego poziomu
 
-```
+```text
 VibeCoding Framework
 ├── 📚 Documentation Layer    # Zasady, wytyczne, dokumentacja
 ├── 🛠️ Tooling Layer         # Narzędzia automatyzacji i CI/CD
@@ -33,7 +35,8 @@ VibeCoding Framework
 ## 📁 Struktura katalogów
 
 ### Główna struktura
-```
+
+```text
 VibeCoding/
 ├── .amazonq/                 # Konfiguracja AI Assistant
 │   └── rules/               # Zasady dla AI
@@ -60,7 +63,8 @@ VibeCoding/
 ```
 
 ### Dokumentacja (docs/)
-```
+
+```text
 docs/
 ├── README.md               # Główny opis projektu
 ├── LICENSE                 # Licencja MIT
@@ -81,6 +85,7 @@ docs/
 ## 🔄 Przepływ danych
 
 ### Development Workflow
+
 ```mermaid
 graph TD
     A[Developer] --> B[AI Assistant]
@@ -96,6 +101,7 @@ graph TD
 ```
 
 ### Decision Flow
+
 ```mermaid
 graph TD
     A[Technology Choice] --> B{Open Source Available?}
@@ -118,6 +124,7 @@ graph TD
 **Odpowiedzialność**: Przechowywanie i zarządzanie dokumentacją
 
 **Komponenty**:
+
 - Rules Engine - Zasady rozwoju i wytyczne
 - Template Documentation - Opisy szablonów
 - API Documentation - Specyfikacje interfejsów
@@ -130,6 +137,7 @@ graph TD
 **Odpowiedzialność**: Automatyzacja procesów rozwoju
 
 **Komponenty**:
+
 - CI/CD Pipeline - Automatyzacja buildów i deploymentów
 - Quality Gates - Automatyczne sprawdzanie jakości
 - Security Scanner - Skanowanie vulnerabilities
@@ -142,6 +150,7 @@ graph TD
 **Odpowiedzialność**: Dostarczanie gotowych szablonów
 
 **Komponenty**:
+
 - Project Templates - Szablony całych projektów
 - Configuration Templates - Szablony konfiguracji
 - Code Snippets - Fragmenty kodu
@@ -154,6 +163,7 @@ graph TD
 **Odpowiedzialność**: Zapewnienie jakości kodu
 
 **Komponenty**:
+
 - Test Framework - Framework testowy
 - Linting Rules - Reguły formatowania
 - Code Coverage - Pokrycie testami
@@ -166,6 +176,7 @@ graph TD
 **Odpowiedzialność**: Integracja z narzędziami AI
 
 **Komponenty**:
+
 - Prompt Templates - Szablony promptów
 - AI Guidelines - Wytyczne dla AI
 - Code Review Assistant - Asystent code review
@@ -177,7 +188,7 @@ graph TD
 
 ### Security Architecture
 
-```
+```text
 ┌─────────────────────────────────────────┐
 │              Security Layer              │
 ├─────────────────────────────────────────┤
@@ -195,6 +206,7 @@ graph TD
 ```
 
 ### Security Controls
+
 - **SAST** - Static Application Security Testing
 - **DAST** - Dynamic Application Security Testing
 - **SCA** - Software Composition Analysis
@@ -207,18 +219,21 @@ graph TD
 ### Performance Architecture
 
 **Frontend Performance**:
+
 - Core Web Vitals compliance (LCP < 2.5s, FID < 100ms, CLS < 0.1)
 - Resource optimization (minification, compression)
 - Lazy loading i code splitting
 - CDN usage dla statycznych zasobów
 
 **Backend Performance**:
+
 - Database optimization (indeksy, query optimization)
 - Caching strategies (Redis, CDN)
 - Load balancing i horizontal scaling
 - Memory management i garbage collection
 
 **Monitoring**:
+
 - Real User Monitoring (RUM)
 - Application Performance Monitoring (APM)
 - Infrastructure monitoring
@@ -228,7 +243,8 @@ graph TD
 
 ### Test Architecture
 
-```
+```text
+
 ┌─────────────────────────────────────────┐
 │              Test Pyramid               │
 ├─────────────────────────────────────────┤
@@ -241,6 +257,7 @@ graph TD
 ```
 
 **Typy testów**:
+
 - **Unit Tests** - Testy jednostkowe (80% coverage)
 - **Integration Tests** - Testy integracyjne
 - **E2E Tests** - Testy end-to-end
@@ -252,7 +269,7 @@ graph TD
 
 ### Deployment Architecture
 
-```
+```text
 Development → Staging → Production
      ↓           ↓          ↓
    Testing    UAT       Monitoring
@@ -263,11 +280,13 @@ Development → Staging → Production
 ```
 
 **Environments**:
+
 - **Development** - Lokalne środowisko deweloperskie
 - **Staging** - Środowisko testowe
 - **Production** - Środowisko produkcyjne
 
 **Deployment Strategies**:
+
 - **Blue-Green Deployment** - Zero-downtime deployments
 - **Canary Releases** - Stopniowe wdrażanie
 - **Feature Flags** - Kontrolowane włączanie funkcji
@@ -278,23 +297,27 @@ Development → Staging → Production
 ### Observability Stack
 
 **Metrics**:
+
 - Application metrics (response time, throughput)
 - Infrastructure metrics (CPU, memory, disk)
 - Business metrics (user engagement, conversion)
 
 **Logging**:
+
 - Structured logging (JSON format)
 - Centralized log aggregation
 - Log retention policies
 - Security event logging
 
 **Tracing**:
+
 - Distributed tracing
 - Request flow visualization
 - Performance bottleneck identification
 - Error correlation
 
 **Alerting**:
+
 - Proactive alerting rules
 - Escalation policies
 - On-call rotation
@@ -303,17 +326,20 @@ Development → Staging → Production
 ## 🔄 Ewolucja architektury
 
 ### Aktualne ograniczenia
+
 - Brak automatyzacji niektórych procesów
 - Ograniczona integracja z narzędziami AI
 - Brak zaawansowanych metryk biznesowych
 
 ### Planowane ulepszenia
+
 - **v1.1**: AI-powered code review
 - **v1.2**: Advanced analytics dashboard
 - **v1.3**: Multi-cloud deployment support
 - **v2.0**: Microservices architecture
 
 ### Migration Strategy
+
 - Backward compatibility dla wszystkich zmian
 - Stopniowa migracja komponentów
 - Comprehensive testing przed wdrożeniem

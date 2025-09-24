@@ -6,7 +6,7 @@ W interesie wspierania otwartego i przyjaznego środowiska, my jako kontrybutorz
 
 ## 📏 Nasze standardy
 
-### ✅ Przykłady zachowań tworzących pozytywne środowisko:
+### ✅ Przykłady zachowań tworzących pozytywne środowisko
 
 - Używanie przyjaznego i inkluzywnego języka
 - Szanowanie różnych punktów widzenia i doświadczeń
@@ -16,7 +16,7 @@ W interesie wspierania otwartego i przyjaznego środowiska, my jako kontrybutorz
 - Profesjonalna komunikacja we wszystkich interakcjach
 - Pomoc nowym kontrybutorów w nauce i rozwoju
 
-### ❌ Przykłady nieakceptowalnych zachowań:
+### ❌ Przykłady nieakceptowalnych zachowań
 
 - Używanie języka lub obrazów o charakterze seksualnym
 - Trolling, obraźliwe/derogatoryjne komentarze i ataki osobiste lub polityczne
@@ -37,11 +37,11 @@ Ten Kodeks Postępowania obowiązuje zarówno w przestrzeniach projektu, jak i w
 
 ## 🚨 Egzekwowanie
 
-Przypadki obraźliwego, nękającego lub w inny sposób nieakceptowalnego zachowania można zgłaszać, kontaktując się z zespołem projektu pod adresem conduct@vibecoding.dev. Wszystkie skargi będą rozpatrywane i badane oraz skutkują odpowiedzią, która zostanie uznana za konieczną i odpowiednią do okoliczności. Zespół projektu jest zobowiązany do zachowania poufności w odniesieniu do osoby zgłaszającej incydent.
+Przypadki obraźliwego, nękającego lub w inny sposób nieakceptowalnego zachowania można zgłaszać, kontaktując się z zespołem projektu pod adresem [conduct@vibecoding.dev](mailto:conduct@vibecoding.dev). Wszystkie skargi będą rozpatrywane i badane oraz skutkują odpowiedzią, która zostanie uznana za konieczną i odpowiednią do okoliczności. Zespół projektu jest zobowiązany do zachowania poufności w odniesieniu do osoby zgłaszającej incydent.
 
 ### Proces rozpatrywania
 
-1. **Zgłoszenie** - Wyślij szczegółowy opis na conduct@vibecoding.dev
+1. **Zgłoszenie** - Wyślij szczegółowy opis na [conduct@vibecoding.dev](mailto:conduct@vibecoding.dev)
 2. **Potwierdzenie** - Otrzymasz potwierdzenie w ciągu 24 godzin
 3. **Badanie** - Zespół zbada sprawę w ciągu 7 dni
 4. **Decyzja** - Zostaniesz poinformowany o podjętych działaniach
@@ -57,11 +57,11 @@ Przypadki obraźliwego, nękającego lub w inny sposób nieakceptowalnego zachow
 
 Zachęcamy do:
 
-- **Mentoringu** - Pomagania nowym kontrybutorów
-- **Inkluzywności** - Tworzenia przyjaznego środowiska
-- **Konstruktywnej krytyki** - Feedbacku skupionego na kodzie, nie osobie
-- **Współpracy** - Pracy zespołowej nad rozwiązaniami
-- **Uczenia się** - Otwartości na nowe pomysły i podejścia
+- **Mentoring** - Pomagania nowym kontrybutorów
+- **Inkluzywność** - Tworzenia przyjaznego środowiska
+- **Konstruktywna krytyka** - Feedback skupiony na kodzie, nie osobie
+- **Współpraca** - Praca zespołowa nad rozwiązaniami
+- **Uczenie się** - Otwartość na nowe pomysły i podejścia
 
 ## 📚 Zasoby
 
@@ -73,4 +73,4 @@ Zachęcamy do:
 
 **Pamiętaj**: Wszyscy jesteśmy tutaj, aby uczyć się i tworzyć razem. Traktujmy się z szacunkiem i życzliwością.
 
-*Ten Kodeks Postępowania jest adaptacją [Contributor Covenant](https://www.contributor-covenant.org/), wersja 2.1.*
+_Ten Kodeks Postępowania jest adaptacją [Contributor Covenant](https://www.contributor-covenant.org/), wersja 2.1._

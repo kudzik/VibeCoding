@@ -2,23 +2,23 @@
 
 ## 🔴 Krytyczne
 
-_Brak aktualnych problemów krytycznych_
+Brak aktualnych problemów krytycznych
 
 ## 🟠 Wysokie
 
-_Brak aktualnych problemów wysokiego priorytetu_
+Brak aktualnych problemów wysokiego priorytetu
 
 ## 🟡 Średnie
 
-_Brak aktualnych problemów średniego priorytetu_
+Brak aktualnych problemów średniego priorytetu
 
 ## 🟢 Niskie
 
-_Brak aktualnych problemów niskiego priorytetu_
+Brak aktualnych problemów niskiego priorytetu
 
 ## ✅ Rozwiązane
 
-_Historia rozwiązanych problemów_
+Historia rozwiązanych problemów
 
 ---
 

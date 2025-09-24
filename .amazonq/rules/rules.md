@@ -269,7 +269,7 @@
 
 **Przykład:**
 
-```
+```text
 feat(auth): dodaj logowanie przez Google
 
 - Integracja z Google OAuth 2.0
