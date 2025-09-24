@@ -1,5 +1,6 @@
 # 🤖 Zasady dla AI Assistant - VibeCoding
 
+**Użyj najtańszego dostępnego modelu do zadania** - optymalizuj koszty AI/LLM
 **ZAWSZE odpowiadaj po polsku**
 **Dopytaj jeśli nie jesteś pewien**
 **Wybieraj pasujące zasady do typu projektu nad którym pracujesz**
@@ -18,11 +19,13 @@
 ### 🆓 Hierarchia wyboru rozwiązań
 
 **Kolejność preferencji:**
+
 1. **Open Source (bezpłatne)** - pierwsza opcja dla wszystkich potrzeb
 2. **Freemium z dobrym free tier** - gdy open source nie wystarcza
 3. **Płatne rozwiązania** - tylko gdy brak dobrej bezpłatnej alternatywy
 
 **Kryteria oceny open source:**
+
 - Aktywna społeczność (commits, issues, contributors)
 - Regularne wydania i długoterminowe wsparcie
 - Dobra dokumentacja i przykłady
@@ -32,6 +35,7 @@
 ### Rekomendacje według typu projektu
 
 **Web Frontend:**
+
 - 🆓 Małe/średnie SPA: React, Vue.js, Svelte
 - 🆓 Duże aplikacje: Angular, Next.js
 - 🆓 Statyczne strony: Astro, Gatsby, Hugo
@@ -40,6 +44,7 @@
 - 💰 Premium: Ant Design Pro (jeśli potrzeba enterprise)
 
 **Backend/API:**
+
 - 🆓 Node.js: Express.js, Fastify, NestJS
 - 🆓 Python: FastAPI, Flask, Django
 - 🆓 Java: Spring Boot
@@ -49,16 +54,19 @@
 - 💰 AWS Lambda (pay-per-use)
 
 **Mobile:**
+
 - 🆓 Cross-platform: React Native, Flutter, Ionic
 - 🆓 Natywne: Android Studio, Xcode
 - 💰 Expo (managed workflow - płatne dla większych zespołów)
 
 **Desktop:**
+
 - 🆓 Cross-platform: Electron, Tauri, Flutter Desktop
 - 🆓 Natywne: .NET (Community), Qt (Open Source)
 - 💰 Qt Commercial (dla komercyjnych projektów)
 
 **Bazy danych:**
+
 - 🆓 Relacyjne: PostgreSQL, MySQL, SQLite
 - 🆓 NoSQL: MongoDB Community, Redis
 - 🆓 Cloud: Supabase, PlanetScale (free tier)
@@ -66,6 +74,7 @@
 - 💰 MongoDB Atlas, Redis Cloud (po przekroczeniu limitów)
 
 **Narzędzia deweloperskie:**
+
 - 🆓 IDE: VS Code, IntelliJ Community
 - 🆓 Version Control: Git, GitHub (publiczne repo)
 - 🆓 CI/CD: GitHub Actions, GitLab CI
@@ -73,10 +82,22 @@
 - 💰 JetBrains IDEs, GitHub Pro, DataDog (dla zaawansowanych funkcji)
 
 **Hosting i infrastruktura:**
+
 - 🆓 Static: Netlify, Vercel, GitHub Pages
 - 🆓 Backend: Railway, Render (free tier)
 - 🆓 Containers: Docker, Podman
 - 💰 AWS, Google Cloud, Azure (po przekroczeniu free tier)
+
+## 🤖 Optymalizacja kosztów AI/LLM
+
+- **Użyj najtańszego dostępnego modelu do zadania** - optymalizuj koszty AI/LLM
+- Preferuj modele open-source (Llama, Mistral) gdy to możliwe
+- Używaj modeli GPT-3.5-turbo zamiast GPT-4 dla prostych zadań
+- Implementuj caching odpowiedzi LLM dla powtarzalnych zapytań
+- Ograniczaj długość promptów i kontekstu do minimum wymaganego
+- Używaj streaming dla długich odpowiedzi (OpenAI streaming API)
+- Monitoruj usage i koszty w czasie rzeczywistym
+- Implementuj fallback na tańsze modele w przypadku błędów
 
 ## 📝 Dokumentacja i śledzenie zmian
 
@@ -101,6 +122,7 @@
 ### Dokumentacja projektowa (katalog docs/)
 
 **Wymagane pliki dla każdego projektu:**
+
 - `README.md` - główny opis projektu z instrukcjami
 - `LICENSE` - informacja o licencji (preferuj MIT)
 - `CONTRIBUTING.md` - zasady współpracy i proces PR
@@ -111,6 +133,7 @@
 - `BUGS.md` - śledzenie znanych problemów z checkboxami statusu
 
 **Dokumenty dla większych projektów:**
+
 - `PRD.md` - wymagania produktowe (Product Requirements Document)
 - `ARCHITECTURE.md` - opis architektury systemu
 - `DEPLOYMENT.md` - instrukcje wdrożenia i konfiguracji
@@ -178,6 +201,7 @@
 - **Security Testing** - SAST, DAST, penetration testing
 
 **Narzędzia bezpieczeństwa:**
+
 - 🆓 SAST: SonarQube Community, CodeQL
 - 🆓 Dependency scanning: npm audit, Snyk (free tier)
 - 🆓 Secrets detection: GitLeaks, TruffleHog
@@ -213,6 +237,7 @@
 - **CI/CD Integration** - automatyczne uruchamianie testów
 
 **Frameworki testowe:**
+
 - 🆓 JavaScript: Jest, Vitest, Cypress, Playwright
 - 🆓 Python: pytest, unittest
 - 🆓 Java: JUnit, TestNG
@@ -336,6 +361,7 @@ feat(auth): dodaj logowanie przez Google
 - **Runtime Performance** - optymalizacja renderowania
 
 **Narzędzia performance:**
+
 - 🆓 Analiza: Lighthouse, WebPageTest, Chrome DevTools
 - 🆓 Bundlers: Vite, Webpack, Rollup
 - 🆓 Kompresja obrazów: Sharp, ImageOptim
