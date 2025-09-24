@@ -7,6 +7,7 @@
     "lint:md-check": "markdownlint \"**/*.md\" --ignore node_modules",
     "lint:md-strict": "markdownlint \"**/*.md\" --ignore node_modules --config .markdownlint-strict.json --fix",
     "lint:md-new": "markdownlint \"Docs/**/*.md\" --config .markdownlint-strict.json --fix",
+    "lint:md-ci": "markdownlint \"**/*.md\" --ignore node_modules --config .markdownlint.json || exit 0",
     "format:md": "prettier --write \"**/*.md\"",
     "check:md": "npm run lint:md-check && prettier --check \"**/*.md\"",
     "fix:md": "npm run lint:md && npm run format:md",

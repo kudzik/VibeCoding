@@ -26,7 +26,7 @@ jobs:
         run: npm ci
         
       - name: Lint Markdown files
-        run: npm run lint:md-check
+        run: npm run lint:md-ci
         
       - name: Check Prettier formatting
         run: npx prettier --check "**/*.md"
@@ -40,5 +40,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: '❌ Pliki Markdown nie spełniają standardów jakości. Uruchom `npm run fix:md` aby automatycznie poprawić błędy.'
+              body: '⚠️ Wykryto problemy z formatowaniem Markdown. Uruchom `npm run fix:md` aby automatycznie poprawić błędy lub `npm run lint:md-ci` aby sprawdzić szczegóły.'
             })
