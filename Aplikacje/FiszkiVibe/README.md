@@ -113,11 +113,11 @@ export const initialFlashcards: Flashcard[] = [
 
   // Nowa fiszka
   {
-    id: '23',
-    spanish: 'buenos días',
-    polish: 'dzień dobry',
-    category: 'podstawowe',
-    difficulty: 'easy',
+    id: "23",
+    spanish: "buenos días",
+    polish: "dzień dobry",
+    category: "podstawowe",
+    difficulty: "easy",
     createdAt: new Date(),
     reviewCount: 0,
     correctCount: 0,
@@ -136,10 +136,10 @@ export const categories: Category[] = [
 
   // Nowa kategoria
   {
-    id: 'zwierzeta',
-    name: 'Zwierzęta',
-    description: 'Nazwy zwierząt',
-    color: '#10B981',
+    id: "zwierzeta",
+    name: "Zwierzęta",
+    description: "Nazwy zwierząt",
+    color: "#10B981",
     cardCount: 5, // Liczba fiszek w tej kategorii
   },
 ]

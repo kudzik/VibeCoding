@@ -424,8 +424,8 @@
   This could be used to minimize the downloaded json data when listing records with large `editor` html values.
 
   ```js
-  await pb.collection('example').getList(1, 20, {
-    fields: '*,description:excerpt(100)',
+  await pb.collection("example").getList(1, 20, {
+    fields: "*,description:excerpt(100)",
   })
   ```
 
@@ -513,10 +513,10 @@
 
   ```js
   // HMAC with SHA256
-  $security.hs256('hello', 'secret')
+  $security.hs256("hello", "secret")
 
   // HMAC with SHA512
-  $security.hs512('hello', 'secret')
+  $security.hs512("hello", "secret")
 
   // compare 2 strings with a constant time
   $security.equal(hash1, hash2)
@@ -930,9 +930,9 @@
   ```js
   // original: {"id": "RECORD_ID", "name": "abc", "description": "...something very big...", "items": ["id1", "id2"], "expand": {"items": [{"id": "id1", "name": "test1"}, {"id": "id2", "name": "test2"}]}}
   // output:   {"name": "abc", "expand": {"items": [{"name": "test1"}, {"name": "test2"}]}}
-  const result = await pb.collection('example').getOne('RECORD_ID', {
-    expand: 'items',
-    fields: 'name,expand.items.name',
+  const result = await pb.collection("example").getOne("RECORD_ID", {
+    expand: "items",
+    fields: "name,expand.items.name",
   })
   ```
 

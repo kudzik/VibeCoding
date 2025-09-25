@@ -1,38 +1,19 @@
 {
   "name": "vibecoding",
   "version": "1.0.0",
-  "description": "VibeCoding Framework - Nowy paradygmat tworzenia oprogramowania z AI",
   "scripts": {
-    "lint:md": "markdownlint \"**/*.md\" --ignore node_modules --fix",
-    "lint:md-check": "markdownlint \"**/*.md\" --ignore node_modules",
-    "lint:md-strict": "markdownlint \"**/*.md\" --ignore node_modules --config .markdownlint-strict.json --fix",
-    "lint:md-new": "markdownlint \"Docs/**/*.md\" --config .markdownlint-strict.json --fix",
-    "lint:md-ci": "markdownlint \"**/*.md\" --ignore node_modules --config .markdownlint.json || exit 0",
-    "format:md": "prettier --write \"**/*.md\"",
-    "check:md": "npm run lint:md-check && prettier --check \"**/*.md\"",
-    "fix:md": "npm run lint:md && npm run format:md",
-    "prepare": "husky install",
-    "commitlint": "commitlint --edit"
-  },
-  "lint-staged": {
-    "*.md": [
-      "prettier --write"
-    ]
+    "format": "prettier --write \"**/*.md\"",
+    "format:check": "prettier --check \"**/*.md\"",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.8.1",
-    "@commitlint/config-conventional": "^19.8.1",
-    "husky": "^9.1.7",
-    "lint-staged": "^16.2.0",
-    "markdownlint-cli": "^0.38.0",
-    "prettier": "^3.1.1"
+    "prettier": "^3.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.0.0",
+    "@commitlint/cli": "^18.0.0",
+    "@commitlint/config-conventional": "^18.0.0"
   },
-  "keywords": [
-    "vibecoding",
-    "ai",
-    "framework",
-    "documentation"
-  ],
-  "author": "VibeCoding Team",
-  "license": "MIT"
+  "lint-staged": {
+    "*.md": ["prettier --write"]
+  }
 }

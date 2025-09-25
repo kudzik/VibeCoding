@@ -1,12 +1,6 @@
-# Rules
+# Rule: Efficient Model & Context Usage
 
-## Cursor Directory
-
-[cursor.directory](https://cursor.directory/)
-
-### Rule: Efficient Model & Context Usage
-
-#### 1. Wybór modelu
+## 1. Wybór modelu
 
 - Zawsze wybieraj **najmniejszy model**, który rozwiąże zadanie poprawnie.
 - Dopasuj model do złożoności:
@@ -15,47 +9,34 @@
   - **Złożone** (architektura, długi kontekst, wieloetapowe analizy) → duży model (34B+ lub chmurowy).
 - **Fallback**: jeśli lokalny model nie daje poprawnej odpowiedzi → dopiero wtedy użyj chmurowego.
 
-#### 2. Zarządzanie kontekstem
+## 2. Zarządzanie kontekstem
 
 - **Kompresuj historię** – używaj podsumowań zamiast pełnych logów.
 - **Czyść kontekst** przy zmianie zadania (/clear).
 - **Priorytetyzuj pliki** – najpierw bieżący plik i powiązane moduły, dopiero potem reszta repo.
 
-#### 3. Limity i kontrola usage
+## 3. Limity i kontrola usage
 
 - **Limit promptu**: max 800 tokenów wejściowych (reszta streszczana).
-- **Limit output**: max 400 tokenów (unikać „lania wody”).
+- **Limit outputu**: max 400 tokenów (unikać „lania wody”).
 - **Cache odpowiedzi** – jeśli pytanie się powtarza, użyj poprzedniego wyniku.
 - **Stop generation** – zatrzymuj generację, gdy odpowiedź jest wystarczająca.
 
-#### 4. Izolacja agentów
+## 4. Izolacja agentów
 
 - **Agent Code Review** – tylko analiza jakości i bezpieczeństwa kodu.
 - **Agent Testowy** – tylko generowanie i uruchamianie testów.
 - **Agent Architektoniczny** – tylko projektowanie struktur i dokumentacji.
 - Dzięki temu nie marnujesz tokenów na „wszystko w jednym”.
 
-#### 5. Bezpieczeństwo i prywatność
+## 5. Bezpieczeństwo i prywatność
 
 - **Tryb lokalny jako domyślny** – zawsze najpierw lokalny LLM.
 - **Explicit opt‑in** – nie wysyłaj kodu do API zewnętrznego bez zgody.
 
-#### 6. Priorytety
+## 6. Priorytety
 
 1. Minimalizacja kosztów i tokenów.
 2. Poprawność i kompletność rozwiązania.
 3. Dopasowanie modelu do złożoności.
 4. Utrzymanie prywatności i kontroli nad danymi.
-
-#### Naprawa błędów
-
-Podczas naprawy błędów w tym kodzie:
-
-- Trzymaj się najlepszych praktyk inżynierii oprogramowania.
-- Stosuj standardy branżowe (np. wzorce projektowe, konwencje języka, idiomatyczne API).
-- Nie szukaj drogi na skróty — nie pomijaj testów, walidacji ani refaktoryzacji.
-- Jeśli problem wynika z złej architektury, zaproponuj poprawę struktury.
-- Uwzględnij czytelność, skalowalność i bezpieczeństwo.
-- Jeśli potrzebne są zmiany w wielu miejscach, zaproponuj je w sposób modularny.
-- Dodaj komentarze tylko tam, gdzie kod nie jest oczywisty.
-- Jeśli nie masz pewności co do rozwiązania, zaproponuj alternatywy i zaznacz ryzyka.
