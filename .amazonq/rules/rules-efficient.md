@@ -18,7 +18,7 @@
 ## 3. Limity i kontrola usage
 
 - **Limit promptu**: max 800 tokenów wejściowych (reszta streszczana).
-- **Limit outputu**: max 400 tokenów (unikać „lania wody”).
+- **Limit output**: max 400 tokenów (unikać „lania wody”).
 - **Cache odpowiedzi** – jeśli pytanie się powtarza, użyj poprzedniego wyniku.
 - **Stop generation** – zatrzymuj generację, gdy odpowiedź jest wystarczająca.
 

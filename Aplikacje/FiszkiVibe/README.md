@@ -29,25 +29,25 @@ git clone <repository-url>
 cd Vibe_Fiszki
 ```
 
-2. Zainstaluj zależności:
+1. Zainstaluj zależności:
 
 ```bash
 npm install
 ```
 
-3. Uruchom serwer deweloperski:
+1. Uruchom serwer deweloperski:
 
 ```bash
 npm run dev
 ```
 
-4. Otwórz przeglądarkę i przejdź do `http://localhost:5173`
+1. Otwórz przeglądarkę i przejdź do `http://localhost:5173`
 
 ## 📸 Podgląd aplikacji
 
 ![Spanish Flashcards App](img/Screenshot.png)
 
-**Interfejs aplikacji - wybór kategorii fiszek do nauki**
+### Interfejs aplikacji - wybór kategorii fiszek do nauki
 
 ## 🎮 Jak używać
 
@@ -59,7 +59,7 @@ npm run dev
 
 ## 📁 Struktura projektu
 
-```
+```text
 src/
 ├── components/          # Komponenty React
 │   ├── Flashcard.tsx   # Komponent fiszki

@@ -4,16 +4,25 @@
   "scripts": {
     "format": "prettier --write \"**/*.md\"",
     "format:check": "prettier --check \"**/*.md\"",
+    "lint:md": "markdownlint \"**/*.md\" --ignore node_modules --ignore .git",
+    "lint:md-ci": "markdownlint \"**/*.md\" --ignore node_modules --ignore .git --config .markdownlint-strict.json",
+    "fix:md": "markdownlint \"**/*.md\" --ignore node_modules --ignore .git --fix",
+    "precommit-check": "npm run format:check && npm run lint:md",
+    "precommit-fix": "npm run format && npm run fix:md",
     "prepare": "husky install"
   },
   "devDependencies": {
-    "prettier": "^3.0.0",
+    "@commitlint/cli": "^18.0.0",
+    "@commitlint/config-conventional": "^18.0.0",
     "husky": "^8.0.0",
     "lint-staged": "^15.0.0",
-    "@commitlint/cli": "^18.0.0",
-    "@commitlint/config-conventional": "^18.0.0"
+    "markdownlint-cli": "^0.45.0",
+    "prettier": "^3.0.0"
   },
   "lint-staged": {
-    "*.md": ["prettier --write"]
+    "*.md": [
+      "prettier --list-different",
+      "markdownlint"
+    ]
   }
 }

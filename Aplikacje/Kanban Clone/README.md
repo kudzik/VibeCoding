@@ -1,6 +1,7 @@
 # Lovablade - Kanban Task Manager
 
-Nowoczesny menedżer zadań w stylu Kanban zbudowany z React, TypeScript i PocketBase. Aplikacja oferuje intuicyjny interfejs do zarządzania projektami z funkcjonalnościami drag-and-drop, responsywnym designem i synchronizacją danych w czasie rzeczywistym.
+Nowoczesny menedżer zadań w stylu Kanban zbudowany z React, TypeScript i PocketBase.
+Aplikacja oferuje intuicyjny interfejs do zarządzania projektami z funkcjonalnościami drag-and-drop, responsywnym designem i synchronizacją danych w czasie rzeczywistym.
 
 ## 🚀 Funkcjonalności
 
@@ -47,13 +48,13 @@ git clone https://github.com/kudzik/kanban-clone-vibe.git
 cd kanban-clone-vibe
 ```
 
-2. **Zainstaluj zależności**
+1. **Zainstaluj zależności**
 
 ```bash
 npm install
 ```
 
-3. **Skonfiguruj PocketBase**
+1. **Skonfiguruj PocketBase**
 
 ```bash
 # Pobierz PocketBase (jeśli nie masz)
@@ -65,7 +66,7 @@ unzip pocketbase.zip
 ./pocketbase.exe serve
 ```
 
-4. **Uruchom aplikację**
+1. **Uruchom aplikację**
 
 ```bash
 npm run dev
@@ -97,7 +98,7 @@ npm run test:e2e:ui
 
 ## 📁 Struktura projektu
 
-```
+```text
 src/
 ├── components/          # Komponenty React
 │   ├── Card.tsx        # Komponent karty zadania
@@ -209,4 +210,4 @@ Masz pomysł na nową funkcję? Świetnie! Utwórz issue z tagiem `enhancement` 
 
 ---
 
-**Stworzone z ❤️ używając React, TypeScript i PocketBase**
+### Stworzone z ❤️ używając React, TypeScript i PocketBase
